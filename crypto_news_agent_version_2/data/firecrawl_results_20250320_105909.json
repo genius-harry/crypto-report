@@ -1,0 +1,145 @@
+{
+  "scrape_results": [
+    {
+      "url": "https://www.livemint.com/market/cryptocurrency",
+      "title": "Cryptocurrency: Latest Crypto News, Prices & Charts - Bitcoin ...",
+      "scraped_at": "2025-03-20T10:59:33.025801",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/news_20250320_105913/20250320_105933_cryptocurrency_latest_crypto_news_prices_charts_bi.md",
+      "success": true
+    },
+    {
+      "url": "https://www.tronweekly.com/bitnomial-drops-sec-lawsuit-launch-xrp-futures/",
+      "title": "Bitnomial Drops SEC Lawsuit , Announces Launch Of First-Ever XRP Futures",
+      "scraped_at": "2025-03-20T10:59:50.951096",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/news_20250320_105913/20250320_105950_bitnomial_drops_sec_lawsuit_announces_launch_of_fi.md",
+      "success": true
+    },
+    {
+      "url": "https://blockchain.news/flashnews/ethereum-eth-shows-strength-against-bitcoin-btc-in-recent-market-movement",
+      "title": "Ethereum (ETH) Shows Strength Against Bitcoin (BTC) in Recent Market Movement",
+      "scraped_at": "2025-03-20T10:59:59.156661",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/news_20250320_105913/20250320_105959_ethereum_eth_shows_strength_against_bitcoin_btc_in.md",
+      "success": true
+    },
+    {
+      "url": "https://www.cryptotimes.io/2025/03/20/xrp-flips-usdt-becomes-3rd-largest-crypto-by-market-cap/",
+      "title": "XRP flips USDT, Becomes 3rd largest Crypto by Market Cap",
+      "scraped_at": "2025-03-20T11:00:04.462493",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/news_20250320_105913/20250320_110004_xrp_flips_usdt_becomes_3rd_largest_crypto_by_marke.md",
+      "success": true
+    },
+    {
+      "url": "https://crypto.news/solana-etf-set-to-debut-in-the-u-s/",
+      "title": "Solana ETF set to debut in the U.S",
+      "scraped_at": "2025-03-20T11:00:24.600307",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/news_20250320_105913/20250320_110024_solana_etf_set_to_debut_in_the_us.md",
+      "success": true
+    },
+    {
+      "url": "https://www.panewslab.com/en/articledetails/6beot0nd.html",
+      "title": "EOS transforms into \"Web3 Bank\" and changes its name to Vaulta; Derive founder says cycle peak has not yet arrived",
+      "scraped_at": "2025-03-20T11:00:33.050350",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/news_20250320_105913/20250320_110033_eos_transforms_into_web3_bank_and_changes_its_name.md",
+      "success": true
+    },
+    {
+      "url": "https://www.cryptotimes.io/2025/03/20/tokeninsight-report-mexc-leads-in-speed-success-rate-and-token-listings/",
+      "title": "TokenInsight report: MEXC Leads in Speed, Success Rate and Token Listings",
+      "scraped_at": "2025-03-20T11:00:38.070642",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/news_20250320_105913/20250320_110038_tokeninsight_report_mexc_leads_in_speed_success_ra.md",
+      "success": true
+    },
+    {
+      "url": "https://blockchain.news/flashnews/bitnomial-to-launch-first-ever-regulated-xrp-futures-in-the-u-s",
+      "title": "Bitnomial to Launch First-Ever Regulated XRP Futures in the U.S.",
+      "scraped_at": "2025-03-20T11:00:47.899792",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/news_20250320_105913/20250320_110047_bitnomial_to_launch_first_ever_regulated_xrp_futur.md",
+      "success": true
+    },
+    {
+      "url": "https://www.bworldonline.com/banking-finance/2025/03/20/660409/digital-dollar-now-available-on-gcash-crypto-trading-platform/",
+      "title": "‘Digital dollar’ now available on GCash crypto trading platform",
+      "scraped_at": "2025-03-20T11:00:58.447767",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/news_20250320_105913/20250320_110058_digital_dollar_now_available_on_gcash_crypto_tradi.md",
+      "success": true
+    },
+    {
+      "url": "https://www.binance.com/en/square/post/21746117445745",
+      "title": "Binance leverage launches custom margin call reminder frequency feature",
+      "scraped_at": "2025-03-20T11:01:07.254870",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/news_20250320_105913/20250320_110107_binance_leverage_launches_custom_margin_call_remin.md",
+      "success": true
+    },
+    {
+      "url": "https://blockchain.news/flashnews/eth-s-solo-pump-signals-impending-correction-big-btc-short-anticipated-post-fomc",
+      "title": "ETH's Solo Pump Signals Impending Correction, Big BTC Short Anticipated Post-FOMC",
+      "scraped_at": "2025-03-20T11:01:16.264350",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/news_20250320_105913/20250320_110116_eths_solo_pump_signals_impending_correction_big_bt.md",
+      "success": true
+    },
+    {
+      "url": "https://www.binance.com/en/square/post/21746083484786",
+      "title": "Binance Margin Introduces the Margin Call Ratio Customization and Margin Call Alert Frequency Adjustment",
+      "scraped_at": "2025-03-20T11:01:20.259496",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/news_20250320_105913/20250320_110120_binance_margin_introduces_the_margin_call_ratio_cu.md",
+      "success": true
+    },
+    {
+      "url": "https://www.binance.com/en/support/announcement/detail/917a66f6d8654c2695d858db6b7f1bff",
+      "title": "Binance Will Add StraitsX USD (XUSD) and Four (FORM) on Earn, Buy Crypto, Margin, Convert & Futures",
+      "scraped_at": "2025-03-20T11:01:29.273779",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/news_20250320_105913/20250320_110129_binance_will_add_straitsx_usd_xusd_and_four_form_o.md",
+      "success": true
+    },
+    {
+      "url": "https://www.binance.com/square/post/21749769961130",
+      "title": "Binance Wealth Management Launches Yield Arena and $1 Million Reward Activity",
+      "scraped_at": "2025-03-20T11:01:58.858819",
+      "success": false,
+      "error": "Failed to scrape URL"
+    },
+    {
+      "url": "https://beincrypto.com/bitnomial-launches-xrp-futures-contract/",
+      "title": "Bitnomial To Launch First Regulated XRP Futures in the US, Boosting ETF Odds",
+      "scraped_at": "2025-03-20T11:02:03.674709",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/news_20250320_105913/20250320_110203_bitnomial_to_launch_first_regulated_xrp_futures_in.md",
+      "success": true
+    },
+    {
+      "url": "https://blockchain.news/flashnews/paolo-ardoino-reflects-on-the-challenges-of-making-a-significant-impact-in-the-crypto-world",
+      "title": "Paolo Ardoino Reflects on the Challenges of Making a Significant Impact in the Crypto World",
+      "scraped_at": "2025-03-20T11:02:09.398891",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/news_20250320_105913/20250320_110209_paolo_ardoino_reflects_on_the_challenges_of_making.md",
+      "success": true
+    },
+    {
+      "url": "https://blockchain.news/flashnews/greeks-rfq-platform-enhances-crypto-options-trading-for-market-makers",
+      "title": "Greeks RFQ Platform Enhances Crypto Options Trading for Market Makers",
+      "scraped_at": "2025-03-20T11:02:14.849273",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/news_20250320_105913/20250320_110214_greeks_rfq_platform_enhances_crypto_options_tradin.md",
+      "success": true
+    },
+    {
+      "url": "https://www.tokenpost.com/news/business/14478",
+      "title": "Solana Futures ETFs Set to Launch, Paving the Way for Spot Approval",
+      "scraped_at": "2025-03-20T11:02:25.361724",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/news_20250320_105913/20250320_110225_solana_futures_etfs_set_to_launch_paving_the_way_f.md",
+      "success": true
+    },
+    {
+      "url": "https://bitpinas.com/cryptocurrency/quick-take-xrp-ripple-us-sec-over/",
+      "title": "Quick Take: XRP Surges 10% as Ripple CEO Declares SEC Case Is Over",
+      "scraped_at": "2025-03-20T11:02:33.371229",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/news_20250320_105913/20250320_110233_quick_take_xrp_surges_10_as_ripple_ceo_declares_se.md",
+      "success": true
+    },
+    {
+      "url": "https://www.vanguardngr.com/2025/03/20-crypto-terms-you-need-to-know/",
+      "title": "20 crypto terms you need to know",
+      "scraped_at": "2025-03-20T11:02:38.299979",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/news_20250320_105913/20250320_110238_20_crypto_terms_you_need_to_know.md",
+      "success": true
+    }
+  ],
+  "timestamp": "2025-03-20T11:02:39.307306"
+}

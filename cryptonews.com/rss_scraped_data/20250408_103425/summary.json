@@ -1,0 +1,25 @@
+{
+  "start_time": "2025-04-08T10:34:25.418086",
+  "feeds_processed": 1,
+  "articles_fetched": 2,
+  "successful_scrapes": 2,
+  "failed_scrapes": 0,
+  "articles": [
+    {
+      "url": "https://cryptonews.com/news/sol-strategies-expands-in-solana-staking-governance/",
+      "title": "SOL Strategies Expands Validators, Backs Solana Governance in March Update",
+      "date": "Tue, 08 Apr 2025 00:09:35 +0000",
+      "success": true,
+      "markdown_file": "rss_scraped_data/20250408_103425/20250408_103427_sol_strategies_expands_validators_backs_solana_gov.md"
+    },
+    {
+      "url": "https://cryptonews.com/news/russian-social-media-company-vk-to-shut-down-its-nft-marketplace-over-recorded-losses/",
+      "title": "Russian Social Media Company VK to Shut Down its NFT Marketplace Over Recorded Losses",
+      "date": "Mon, 07 Apr 2025 23:44:02 +0000",
+      "success": true,
+      "markdown_file": "rss_scraped_data/20250408_103425/20250408_103431_russian_social_media_company_vk_to_shut_down_its_n.md"
+    }
+  ],
+  "end_time": "2025-04-08T10:34:33.999740",
+  "duration_seconds": 8.581654
+}

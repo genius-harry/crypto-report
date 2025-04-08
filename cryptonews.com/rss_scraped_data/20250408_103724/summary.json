@@ -1,0 +1,53 @@
+{
+  "start_time": "2025-04-08T10:37:24.473460",
+  "feeds_processed": 2,
+  "articles_fetched": 6,
+  "successful_scrapes": 6,
+  "failed_scrapes": 0,
+  "articles": [
+    {
+      "url": "https://cryptonews.com/news/sol-strategies-expands-in-solana-staking-governance/",
+      "title": "SOL Strategies Expands Validators, Backs Solana Governance in March Update",
+      "date": "Tue, 08 Apr 2025 00:09:35 +0000",
+      "success": true,
+      "markdown_file": "rss_scraped_data/20250408_103724/20250408_103725_sol_strategies_expands_validators_backs_solana_gov.md"
+    },
+    {
+      "url": "https://cryptonews.com/news/russian-social-media-company-vk-to-shut-down-its-nft-marketplace-over-recorded-losses/",
+      "title": "Russian Social Media Company VK to Shut Down its NFT Marketplace Over Recorded Losses",
+      "date": "Mon, 07 Apr 2025 23:44:02 +0000",
+      "success": true,
+      "markdown_file": "rss_scraped_data/20250408_103724/20250408_103729_russian_social_media_company_vk_to_shut_down_its_n.md"
+    },
+    {
+      "url": "https://cryptonews.com/news/crypto-lawyer-sues-dhs-over-satoshi-nakamoto-identity-records/",
+      "title": "Crypto Lawyer Sues DHS Over Satoshi Nakamoto Identity Records",
+      "date": "Mon, 07 Apr 2025 22:41:16 +0000",
+      "success": true,
+      "markdown_file": "rss_scraped_data/20250408_103724/20250408_103732_crypto_lawyer_sues_dhs_over_satoshi_nakamoto_ident.md"
+    },
+    {
+      "url": "https://cryptonews.com/exclusives/trumps-tariffs-spark-market-carnage-whats-next-for-bitcoin/",
+      "title": "Trump\u2019s Tariffs Spark Market Carnage: What\u2019s Next for Bitcoin?",
+      "date": "Mon, 07 Apr 2025 14:55:49 +0000",
+      "success": true,
+      "markdown_file": "rss_scraped_data/20250408_103724/20250408_103737_trumps_tariffs_spark_market_carnage_whats_next_for.md"
+    },
+    {
+      "url": "https://cryptonews.com/exclusives/why-experts-still-believe-in-ethereum-price-recovery/",
+      "title": "\u2018Ethereum Has Long-Term Potential\u2019: Why Experts Believe in ETH Price Recovery",
+      "date": "Fri, 04 Apr 2025 13:56:53 +0000",
+      "success": true,
+      "markdown_file": "rss_scraped_data/20250408_103724/20250408_103740_ethereum_has_long_term_potential_why_experts_belie.md"
+    },
+    {
+      "url": "https://cryptonews.com/exclusives/why-is-crypto-crashing-theres-just-one-reason/",
+      "title": "Why is Crypto Crashing? There\u2019s Just One Reason",
+      "date": "Thu, 03 Apr 2025 13:58:41 +0000",
+      "success": true,
+      "markdown_file": "rss_scraped_data/20250408_103724/20250408_103743_why_is_crypto_crashing_theres_just_one_reason.md"
+    }
+  ],
+  "end_time": "2025-04-08T10:37:46.250199",
+  "duration_seconds": 21.776739
+}

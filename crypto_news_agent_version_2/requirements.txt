@@ -1,0 +1,43 @@
+# API Clients
+requests>=2.31.0
+python-dotenv>=1.0.0
+firecrawl-py>=0.1.0
+
+# Web Scraping
+beautifulsoup4>=4.12.2
+html2text>=2020.0.0
+
+# LLM and RAG
+langchain>=0.1.0
+openai>=1.10.0
+pydantic>=2.0.0
+google-generativeai>=0.3.0
+
+# LangChain Integrations
+langchain-openai>=0.0.2
+langchain-neo4j>=0.0.2
+langchain-community>=0.0.13
+
+# Visualization
+networkx>=3.1
+matplotlib>=3.7.1
+pyvis>=0.3.2
+
+# NLP
+spacy>=3.5.0
+faiss-cpu>=1.7.0
+
+# Data Processing
+numpy>=1.24.4
+scikit-learn>=1.0.0
+pandas>=1.5.0
+
+# Web APIs
+google-search-results>=2.4.0
+python-dateutil>=2.8.2
+
+# Database
+neo4j>=5.13.0
+
+# Web Interface
+flask>=2.3.3

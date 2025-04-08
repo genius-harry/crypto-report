@@ -1,0 +1,25 @@
+{
+  "start_time": "2025-04-08T10:57:18.102905",
+  "feeds_processed": 1,
+  "articles_fetched": 2,
+  "successful_scrapes": 2,
+  "failed_scrapes": 0,
+  "articles": [
+    {
+      "url": "https://cointelegraph.com/news/sec-crypto-trading-roundtable-hosts-uniswap-coinbase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title": "SEC crypto trading roundtable to include crypto giants Uniswap, Coinbase",
+      "date": "2025-04-08",
+      "success": true,
+      "markdown_file": "scraped_data/20250408_105718/20250408_105719_sec_crypto_trading_roundtable_to_include_crypto_gi.md"
+    },
+    {
+      "url": "https://cointelegraph.com/news/spanish-police-take-down-20-million-ai-powered-scam?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title": "Spanish police arrest six over $20M AI-powered investment scam",
+      "date": "2025-04-08",
+      "success": true,
+      "markdown_file": "scraped_data/20250408_105718/20250408_105723_spanish_police_arrest_six_over_20m_ai_powered_inve.md"
+    }
+  ],
+  "end_time": "2025-04-08T10:57:26.419116",
+  "duration_seconds": 8.316211
+}

@@ -1,0 +1,34 @@
+Title: Ether (ETH) Price Underperforms BTC Price, Slumps to 5-Year Relative Low: Van Straten
+Author: James Van Straten|Edited by Sheldon Reback
+Date: 2025-03-31
+Source: https://www.coindesk.com/markets/2025/03/31/ether-bitcoin-slumps-to-5-year-low-van-straten
+
+# Ether-Bitcoin Ratio Slumps to 5-Year Low as Traders Seek Less Risky Assets: Van Straten
+
+## Ether has underperformed bitcoin since last year's reward halving. The first time that's happened.
+
+#### What to know:
+
+Ether ([ETH](https://www.coindesk.com/price/ethereum/)) has dropped 39% this year relative to bitcoin ([BTC](https://www.coindesk.com/price/bitcoin/)), the largest cryptocurrency, taking the ratio between the two to the lowest in almost five years as a riskier macroeconomic environment weighs on the second-largest cryptocurrency.
+
+At the current level, 1 ETH is the equivalent of 0.02191 BTC. That's the least since May 2020, when ether was trading around $200 and bitcoin just under $10,000. Today the ETH price is about $1,800 and the BTC price around $82,000.
+
+Don't miss another story.Subscribe to the Crypto for Advisors Newsletter today. [See all newsletters](/newsletters)
+
+Sign me up
+
+By signing up, you will receive emails about CoinDesk products and you agree to our [terms of use](/terms) and [privacy policy](/privacy).
+
+The underperformance is notable because it's the first time ether has weakened against bitcoin in the 12 months after a [BTC reward halving](https://www.coindesk.com/tech/2024/04/20/bitcoin-blockchain-has-fourth-halving-in-15-year-history-in-show-of-monetary-policy-set-by-code). On April 20, 2024, the payment Bitcoin miners received for confirming blocks on the blockchain was reduced by 50% to 3.125 BTC.
+
+In previous halving cycles, ether outperformed bitcoin in the first year after a halving. This time, the ratio has dropped by more than 50%.
+
+That's partly because the threat of a tariff-driven trade war, persistent inflation and elevated bonds yields globally have driven investors to assets seen as more liquid and less risky. Gold, the ultimate haven, has climbed to record highs, and in the cryptocurrency market bitcoin is seen as a safer bet than ether.
+
+This relative performance also marks one of ether’s worst quarterly performances against bitcoin in several years, according to data from Glassnode. The last time ether underperformed bitcoin to a similar degree was in the third quarter of 2019, when the ratio dropped to 0.0164, a quarterly decline of 46%.
+
+This current slump mirrors the underperformance seen in 2019 and further highlights ether's relative weakness, especially when compared to other [layer-1 assets](https://www.coindesk.com/markets/2023/04/05/crypto-investors-why-you-need-to-understand-layer-1-protocols/). The SOLETH ratio — measuring the value of Solana’s [SOL](https://www.coindesk.com/price/solana/) relative to ether — is up 24% year-to-date to 0.07007. This indicates that SOL has significantly outperformed ether in 2025, despite the token itself itself being down 35% year-to-date.
+
+_**UPDATE (March 31, 9:25 UTC):** Adds macroeconomic environment in fifth paragraph._
+
+[

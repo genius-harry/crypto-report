@@ -1,0 +1,20 @@
+{
+  "timestamp": "2025-04-08T13:40:26.667798",
+  "category": "latest",
+  "num_articles": 2,
+  "output_dir": "scraped_data/20250408_133958",
+  "articles": [
+    {
+      "title": "Sorry, you have been blocked",
+      "url": "https://www.theblock.co/post/349935/cathie-woods-ark-invest-buys-13-3-million-worth-of-coinbase-shares-amid-market-slump",
+      "date": "",
+      "author": ""
+    },
+    {
+      "title": "Sorry, you have been blocked",
+      "url": "https://www.theblock.co/post/349930/first-ever-xrp-etf-to-launch-in-us-tuesday-spot-etf-still-pending",
+      "date": "",
+      "author": ""
+    }
+  ]
+}

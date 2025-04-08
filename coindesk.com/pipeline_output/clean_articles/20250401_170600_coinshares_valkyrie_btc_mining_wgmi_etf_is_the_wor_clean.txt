@@ -1,0 +1,30 @@
+Title: CoinShares Valkyrie BTC Mining (WGMI) ETF Is the Worst Performing ETF of 2025
+Author: James Van Straten|Edited by Parikshit Mishra
+Date: 2025-03-31
+Source: https://www.coindesk.com/markets/2025/03/31/coinshares-s-bitcoin-mining-etf-is-the-worst-performing-fund-of-this-year
+
+# CoinShares' Bitcoin Mining ETF Is the Worst Performing Fund of This Year
+
+## IREN, the ETF’s top holding at 15%, is down more than 40% year-to-date.
+
+#### What to know:
+
+CoinShares' Valkyrie Bitcoin Mining (WGMI) exchange-traded fund (ETF) is the worst-performing ETF of 2025, down 43% year-to-date, according to Senior Bloomberg ETF analyst [Eric Balchunas](https://x.com/EricBalchunas/status/1905714619001565478).
+
+The ETF is made up of several publicly traded bitcoin (BTC) miners. IREN (IREN) is the largest holding at 15%, which is down 42%. Core Scientific (CORZ) follows with a 14% weighting and a 48% decline, while Cipher Mining (CIFR), the third-largest holding at 9.6%, is down 52%. Even NVIDIA (NVDA), the sixth-largest holding at 5%, has dropped over 20% this year.
+
+Don't miss another story.Subscribe to the Crypto Long & Short Newsletter today. [See all newsletters](/newsletters)
+
+Sign me up
+
+By signing up, you will receive emails about CoinDesk products and you agree to our [terms of use](/terms) and [privacy policy](/privacy).
+
+According to its [investment strategy](https://www.schwab.com/research/etfs/quotes/summary/wgmi), "The ETF will invest in companies that derive at least 50% of their revenue or profits from bitcoin mining operations and/or from providing specialized chips, hardware, software, or other services to companies engaged in bitcoin mining." WGMI consists of 21 holdings and manages $147.2 million in total assets.
+
+In contrast, metals ETFs have been the top performers of 2025, according to [justETF](https://www.justetf.com/uk/market-overview/the-best-etfs.html). Several gold mining ETFs rank in the top five, with the Equity World Basic Materials DAXglobal Gold Miners ETF up 38% year-to-date.
+
+Bitcoin miners have faced significant challenges this year, as the network hash rate—representing the computational power required to mine bitcoin—continues to climb, hovering near all-time highs around 832 EH/s. This has created a notable divergence between bitcoin’s price and the hash rate.
+
+As a result, mining difficulty has also remained close to its peak, making it harder for miners to successfully mine new bitcoins. At the same time, transaction fees are extremely low, further squeezing miner profitability as rewards from processing transactions remain minimal.
+
+[

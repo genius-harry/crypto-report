@@ -1,0 +1,77 @@
+# Bitcoin on verge of largest ‘price drawdown’ of the bull market — Analyst
+
+Date: 2025-04-07
+Author: Biraajmaan Tamuly
+URL: https://cointelegraph.com/news/bitcoin-on-verge-of-largest-price-drawdown-of-the-bull-market-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound
+
+[ Biraajmaan Tamuly ](/authors/biraajmaan-tamuly)
+
+6 hours ago 
+
+#  Bitcoin on verge of largest ‘price drawdown’ of the bull market — Analyst 
+
+One analyst says Bitcoin price is close to locking in the deepest correction of this cycle, but how does it compare to previous bull and bear market drawdowns? 
+
+2910  Total views 
+
+3  Total shares 
+
+Listen to article 
+
+[](https://s3.cointelegraph.com/audio/184867.a1e1def9-8840-4c1b-8bd7-959bb8816617.mp3 "Download as mp3")
+
+0:00 
+
+Market Analysis 
+
+COINTELEGRAPH IN YOUR SOCIAL FEED
+
+Bitcoin’s ([BTC](/bitcoin-price "null")) 26.62% decline from its $109,500 all-time high is en route to becoming the [deepest drawdown](https://x.com/jjcmoreno/status/1909281316928954400 "https://x.com/jjcmoreno/status/1909281316928954400") of the current bull market cycle, according to CryptoQuant head of research, Julio Moreno. 
+
+Bitcoin price drawdown analysis. Source: X
+
+Bitcoin has experienced significant drawdowns in past cycles, with a notable 83% drop from its peak in 2018 and a 73% correction from all-time highs (ATH) in 2022. In comparison, the current decline of 26.62%, while substantial, remains less severe than previous bear markets. 
+
+This suggests that even though the current downturn is impactful, it has not yet reached the intensity of previous cycles. However, crypto and macro resource ‘ecoinometrics’ said that Bitcoin might struggle to stage an immediate turnaround. The analysts [explained,](https://x.com/ecoinometrics/status/1909277750390816924 "https://x.com/ecoinometrics/status/1909277750390816924")
+
+> “Historically, when the NASDAQ 100 falls below its long-term year-on-year average return, Bitcoin tends to grow more slowly. It also faces a higher risk of entering a severe correction.”
+
+Bitcoin and Nasdaq correlation. Source: X / Ecoinometrics
+
+With the Nasdaq 100 currently flat year-on-year, Bitcoin’s price recovery might be difficult, even if the correction halts.
+
+The recent Bitcoin ([BTC](/bitcoin-price "null")) price drop also put Michael Saylor’s Strategy on the defensive, with the firm opting not to purchase any BTC for its treasury between March 31 and April 6. 
+
+Additionally, data from Strategytracker [highlighted](https://strategytracker.com/mstr/?chart=nav-multiplier&timeRange=year "null") that the corporation spent $35.65 billion on its Bitcoin holdings, currently reflecting a mere 17% return on a five-year holding period. 
+
+[Related: Michael Saylor’s Strategy halts Bitcoin buys despite dip below $87K](https://cointelegraph.com/news/saylor-strategy-skip-bitcoin-buy-87000-drop "https://cointelegraph.com/news/saylor-strategy-skip-bitcoin-buy-87000-drop")
+
+## Can Bitcoin hold a position above $70K?
+
+On the weekly chart, Bitcoin tested the 50-weekly exponential moving average (blue indicator) for the first time since September 2024. A weekly close below the 50-W EMA has signaled the beginning of a bear market in previous market cycles. 
+
+Bitcoin weekly chart. Source: Cointelegraph/TradingView
+
+The immediate point of interest below the current price remains at $74,000, which was the early 2024 all-time high. However, the daily demand zone between $65,000 and $69,000 could be a bigger liquidity level based on its significance. The $69,000 level is also the 2021 all-time high price. 
+
+Additionally, Bitcoin’s weekly relative strength index, RSI, reached its lowest value of 43 since January 2023 at the end of Q1. In August 2023 and September 2024, the RSI recovered from a similar value to trigger a price recovery for Bitcoin. In 2022, when RSI dropped below 40, bears took total control of the market. 
+
+Anonymous crypto trader Rekt Capital also predicted based on daily RSI value and [said, ](https://x.com/rektcapital/status/1909280701960138783 "https://x.com/rektcapital/status/1909280701960138783")
+
+> “Historical daily RSI trends in this cycle suggest anything from current prices to ~$70,000 is likely to be the bottom on this correction.”
+
+[Related: Bitcoin, stocks crumble after ‘90 day tariff pause’ deemed fake news — BTC whales keep accumulating](https://cointelegraph.com/news/bitcoin-stocks-crumble-after-90-day-tariff-pause-deemed-fake-news-btc-whales-keep-accumulating "https://cointelegraph.com/news/bitcoin-stocks-crumble-after-90-day-tariff-pause-deemed-fake-news-btc-whales-keep-accumulating")
+
+This article does not contain investment advice or recommendations. Every investment and trading move involves risk, and readers should conduct their own research when making a decision.
+
+  * [#Bitcoin ](/tags/bitcoin)
+  * [#Cryptocurrencies ](/tags/cryptocurrencies)
+  * [#Bitcoin Price ](/tags/bitcoin-price)
+  * [#Markets ](/tags/markets)
+  * [#Price Analysis ](/tags/price-analysis)
+  * [#Market Analysis ](/tags/market-analysis)
+
+
+
+Add reaction 
+
