@@ -1,0 +1,145 @@
+{
+  "scrape_results": [
+    {
+      "url": "https://coinpedia.org/tag/crypto-news/",
+      "title": "Crypto News: Latest Updates, Trends, and Market Insights",
+      "scraped_at": "2025-03-20T13:19:51.380553",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/news_20250320_131946/20250320_131951_crypto_news_latest_updates_trends_and_market_insig.md",
+      "success": true
+    },
+    {
+      "url": "https://www.kucoin.com/news/flash/bitnomial-to-launch-cftc-approved-xrp-futures-on-march-20",
+      "title": "Bitnomial to Launch CFTC-Approved XRP Futures on March 20",
+      "scraped_at": "2025-03-20T13:19:56.092493",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/news_20250320_131946/20250320_131956_bitnomial_to_launch_cftc_approved_xrp_futures_on_m.md",
+      "success": true
+    },
+    {
+      "url": "https://www.tronweekly.com/bitnomial-drops-sec-lawsuit-launch-xrp-futures/",
+      "title": "Bitnomial Drops SEC Lawsuit , Announces Launch Of First-Ever ...",
+      "scraped_at": "2025-03-20T13:20:00.785835",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/news_20250320_131946/20250320_132000_bitnomial_drops_sec_lawsuit_announces_launch_of_fi.md",
+      "success": true
+    },
+    {
+      "url": "https://www.livemint.com/market/cryptocurrency/crypto-update-bitcoin-price-today-near-86000-march-20-solana-etf-launch-federal-reserve-rate-decision-us-markets-news-11742443718936.html",
+      "title": "Crypto update: Bitcoin price nears $86,000 after Fed rate decision, Solana ETF launch, and more",
+      "scraped_at": "2025-03-20T13:20:03.712131",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/news_20250320_131946/20250320_132003_crypto_update_bitcoin_price_nears_86000_after_fed_.md",
+      "success": true
+    },
+    {
+      "url": "https://blockchain.news/flashnews/sec-vs-ripple-case-unresolved-impact-on-xrp-price",
+      "title": "SEC vs. Ripple Case Unresolved: Impact on XRP Price",
+      "scraped_at": "2025-03-20T13:20:11.160606",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/news_20250320_131946/20250320_132011_sec_vs_ripple_case_unresolved_impact_on_xrp_price.md",
+      "success": true
+    },
+    {
+      "url": "https://www.fxleaders.com/news/2025/03/20/daily-crypto-signals-bitcoin-and-ethereum-surge-as-ripples-xrp-victory-reshapes-crypto-landscape/",
+      "title": "Daily Crypto Signals: Bitcoin and Ethereum Surge as Ripple's XRP Victory Reshapes Crypto Landscape",
+      "scraped_at": "2025-03-20T13:20:17.905333",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/news_20250320_131946/20250320_132017_daily_crypto_signals_bitcoin_and_ethereum_surge_as.md",
+      "success": true
+    },
+    {
+      "url": "https://blockchain.news/flashnews/invesco-bitcoin-etf-records-daily-outflow-of-us-10-2-million",
+      "title": "Invesco Bitcoin ETF Records Daily Outflow of US$10.2 Million",
+      "scraped_at": "2025-03-20T13:20:25.376284",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/news_20250320_131946/20250320_132025_invesco_bitcoin_etf_records_daily_outflow_of_us102.md",
+      "success": true
+    },
+    {
+      "url": "https://pintu.co.id/news/140289-trump-linked-defi-project-raises-550-million-new-breaks-in-the-crypto-industry",
+      "title": "Trump-linked DeFi Project Raises $550 Million, New Breaks in the Crypto Industry!",
+      "scraped_at": "2025-03-20T13:20:31.843099",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/news_20250320_131946/20250320_132031_trump_linked_defi_project_raises_550_million_new_b.md",
+      "success": true
+    },
+    {
+      "url": "https://www.binance.com/en/square/post/21746117445745",
+      "title": "Binance leverage launches custom margin call reminder frequency feature",
+      "scraped_at": "2025-03-20T13:20:38.585753",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/news_20250320_131946/20250320_132038_binance_leverage_launches_custom_margin_call_remin.md",
+      "success": true
+    },
+    {
+      "url": "https://www.bworldonline.com/banking-finance/2025/03/20/660409/digital-dollar-now-available-on-gcash-crypto-trading-platform/",
+      "title": "‘Digital dollar’ now available on GCash crypto trading platform",
+      "scraped_at": "2025-03-20T13:20:45.958219",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/news_20250320_131946/20250320_132045_digital_dollar_now_available_on_gcash_crypto_tradi.md",
+      "success": true
+    },
+    {
+      "url": "https://www.binance.com/en/square/post/21746083484786",
+      "title": "Binance Margin Introduces the Margin Call Ratio Customization and Margin Call Alert Frequency Adjustment",
+      "scraped_at": "2025-03-20T13:20:50.466915",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/news_20250320_131946/20250320_132050_binance_margin_introduces_the_margin_call_ratio_cu.md",
+      "success": true
+    },
+    {
+      "url": "https://en.cryptonomist.ch/2025/03/20/best-crypto-to-buy-solaxy-hits-27-million-in-fast-growing-layer-2-ico/",
+      "title": "Best Crypto to Buy: Solaxy Hits $27 Million in Fast-Growing Layer 2 ICO",
+      "scraped_at": "2025-03-20T13:20:55.998388",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/news_20250320_131946/20250320_132055_best_crypto_to_buy_solaxy_hits_27_million_in_fast_.md",
+      "success": true
+    },
+    {
+      "url": "https://www.cryptotimes.io/2025/03/20/xrp-flips-usdt-becomes-3rd-largest-crypto-by-market-cap/",
+      "title": "XRP flips USDT, Becomes 3rd largest Crypto by Market Cap",
+      "scraped_at": "2025-03-20T13:21:00.430139",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/news_20250320_131946/20250320_132100_xrp_flips_usdt_becomes_3rd_largest_crypto_by_marke.md",
+      "success": true
+    },
+    {
+      "url": "https://blockchain.news/flashnews/ethereum-eth-shows-strength-against-bitcoin-btc-in-recent-market-movement",
+      "title": "Ethereum (ETH) Shows Strength Against Bitcoin (BTC) in Recent Market Movement",
+      "scraped_at": "2025-03-20T13:21:05.926381",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/news_20250320_131946/20250320_132105_ethereum_eth_shows_strength_against_bitcoin_btc_in.md",
+      "success": true
+    },
+    {
+      "url": "https://www.cryptotimes.io/2025/03/20/tokeninsight-report-mexc-leads-in-speed-success-rate-and-token-listings/",
+      "title": "TokenInsight report: MEXC Leads in Speed, Success Rate and Token Listings",
+      "scraped_at": "2025-03-20T13:21:10.640790",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/news_20250320_131946/20250320_132110_tokeninsight_report_mexc_leads_in_speed_success_ra.md",
+      "success": true
+    },
+    {
+      "url": "https://blockchain.news/flashnews/first-solana-etfs-launching-in-the-u-s-tomorrow-signaling-bullish-momentum-for-sol",
+      "title": "First Solana ETFs Launching in the U.S. Tomorrow, Signaling Bullish Momentum for $SOL",
+      "scraped_at": "2025-03-20T13:21:19.446990",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/news_20250320_131946/20250320_132119_first_solana_etfs_launching_in_the_us_tomorrow_sig.md",
+      "success": true
+    },
+    {
+      "url": "https://blockchain.news/flashnews/bitnomial-to-launch-first-ever-regulated-xrp-futures-in-the-u-s",
+      "title": "Bitnomial to Launch First-Ever Regulated XRP Futures in the U.S.",
+      "scraped_at": "2025-03-20T13:21:42.467329",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/news_20250320_131946/20250320_132142_bitnomial_to_launch_first_ever_regulated_xrp_futur.md",
+      "success": true
+    },
+    {
+      "url": "https://crypto.news/solana-etf-set-to-debut-in-the-u-s/",
+      "title": "Solana ETF set to debut in the U.S",
+      "scraped_at": "2025-03-20T13:22:10.164240",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/news_20250320_131946/20250320_132210_solana_etf_set_to_debut_in_the_us.md",
+      "success": true
+    },
+    {
+      "url": "https://blockchain.news/flashnews/greeks-rfq-platform-enhances-crypto-options-trading-for-market-makers",
+      "title": "Greeks RFQ Platform Enhances Crypto Options Trading for Market Makers",
+      "scraped_at": "2025-03-20T13:22:36.961502",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/news_20250320_131946/20250320_132236_greeks_rfq_platform_enhances_crypto_options_tradin.md",
+      "success": true
+    },
+    {
+      "url": "https://cryptodaily.co.uk/2025/03/are-ethereum-eth-solana-sol-and-sui-sui-poised-for-a-crypto-comeback",
+      "title": "Are Ethereum (ETH), Solana (SOL), and Sui (SUI) Poised for a Crypto Comeback?",
+      "scraped_at": "2025-03-20T13:22:44.157684",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/news_20250320_131946/20250320_132244_are_ethereum_eth_solana_sol_and_sui_sui_poised_for.md",
+      "success": true
+    }
+  ],
+  "timestamp": "2025-03-20T13:22:45.164097"
+}

@@ -1,0 +1,7 @@
+---
+description: Running and debugging the project
+globs: 
+alwaysApply: false
+---
+
+If you want to run the webpage, make sure to check if that port is avaliable or not. If not, terminate what is originally running o nthat port. 

@@ -1,0 +1,16 @@
+{
+  "start_time": "2025-04-08T13:54:12.316974",
+  "sections_crawled": 1,
+  "articles_scraped": 2,
+  "successful_scrapes": 1,
+  "failed_scrapes": 1,
+  "articles": [
+    {
+      "url": "https://cryptonews.com/ext/bestwallet/?transfer=1",
+      "title": "Best Crypto Wallet: Anonymous Bitcoin Wallets",
+      "saved_path": "scraped_data/20250408_135412/20250408_135422_best_crypto_wallet_anonymous_bitcoin_wallets.md"
+    }
+  ],
+  "end_time": "2025-04-08T13:54:56.533355",
+  "duration_seconds": 44.216381
+}

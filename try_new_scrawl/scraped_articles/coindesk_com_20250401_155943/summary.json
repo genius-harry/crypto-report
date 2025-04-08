@@ -1,0 +1,26 @@
+{
+  "url": "https://www.coindesk.com/",
+  "timestamp": "20250401_155943",
+  "articles_found": 3,
+  "articles_scraped": 3,
+  "results": [
+    {
+      "success": true,
+      "url": "https://www.coindesk.com/markets/2025/03/31/bitcoin-headed-below-usd60k-says-hot-handed-crypto-hedge-fund-manager",
+      "title": "Bitcoin Price (BTC) Should Continue Slow Bleed Lower, Says Quinn Thompson",
+      "output_file": "20250401_160017_bitcoin_price_btc_should_continue_slow_bleed_lower.md"
+    },
+    {
+      "success": true,
+      "url": "https://www.coindesk.com/markets/2025/04/01/ethereum-reclaims-no-1-spot-as-leading-dex-chain-for-first-since-september-overtakes-solana",
+      "title": "Ethereum Outpaces Solana to Reclaim No. 1 Spot as Leading DEX Chain for First Time Since September",
+      "output_file": "20250401_160039_ethereum_outpaces_solana_to_reclaim_no_1_spot_as_l.md"
+    },
+    {
+      "success": true,
+      "url": "https://www.coindesk.com/opinion/2025/03/31/23andme-is-a-wake-up-call-on-data-sovereignty",
+      "title": "23andMe Is a Wake-Up Call on Data Sovereignty",
+      "output_file": "20250401_160058_23andme_is_a_wake_up_call_on_data_sovereignty.md"
+    }
+  ]
+}

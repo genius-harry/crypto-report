@@ -1,0 +1,22 @@
+{
+  "site": "https://crypto.news/news/",
+  "timestamp": "2025-04-01T16:05:43.819282",
+  "total_articles": 2,
+  "success_count": 2,
+  "articles": [
+    {
+      "url": "https://tr.crypto.news/news/",
+      "title": "Öne Çıkan Günlük Kripto Para Haberleri",
+      "scraped_at": "2025-04-01T16:05:43.554765",
+      "markdown_file": "test_crypto_news/crypto_news_20250401_160542/20250401_160543_öne_çıkan_günlük_kripto_para_haberleri.md",
+      "success": true
+    },
+    {
+      "url": "https://crypto.news/news/",
+      "title": "Top Cryptocurrency News Today",
+      "scraped_at": "2025-04-01T16:05:43.818775",
+      "markdown_file": "test_crypto_news/crypto_news_20250401_160542/20250401_160543_top_cryptocurrency_news_today.md",
+      "success": true
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "start_time": "2025-04-08T13:57:59.048745",
+  "sections_crawled": 1,
+  "articles_scraped": 3,
+  "successful_scrapes": 3,
+  "failed_scrapes": 0,
+  "articles": [
+    {
+      "url": "https://cryptonews.com/reports/february-2025-altcoin-report-outlook/",
+      "title": "February 2025 Altcoin Report: IP Surges 630%, DeFi Giants Fall, and Jito Triumphs Over Solana",
+      "saved_path": "scraped_data/20250408_135759/20250408_135810_february_2025_altcoin_report_ip_surges_630_defi_giants_fall_and_jito_triumphs_over_solana.md"
+    },
+    {
+      "url": "https://cryptonews.com/reports/january-2025-crypto-report-trump-inauguration-bitcoin-high-solana-ai/",
+      "title": "January 2025 Crypto Report: Trump’s Inauguration, Bitcoin’s New High, and Solana’s AI Rise",
+      "saved_path": "scraped_data/20250408_135759/20250408_135824_january_2025_crypto_report_trumps_inauguration_bitcoins_new_high_and_solanas_ai_rise.md"
+    },
+    {
+      "url": "https://cryptonews.com/reports/bitcoin-price-volatility-and-mining-challenges-can-a-bullish-breakout-follow/",
+      "title": "Bitcoin Price Volatility and Miner Struggles: Can a Bullish Breakout Follow?",
+      "saved_path": "scraped_data/20250408_135759/20250408_135828_bitcoin_price_volatility_and_miner_struggles_can_a_bullish_breakout_follow.md"
+    }
+  ],
+  "end_time": "2025-04-08T13:58:32.983617",
+  "duration_seconds": 33.934872
+}

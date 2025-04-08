@@ -1,0 +1,13 @@
+# Bitcoin, Ethereum and Solana Rise Alongside Stocks Following Fed Comments
+
+Date: 11 hours ago
+
+Source: Decrypt
+
+URL: https://decrypt.co/310725/bitcoin-ethereum-and-solana-rise-alongside-stocks-following-fed-comments
+
+Summary: Bitcoin, Ethereum, and other top coins shot up alongside stocks after Fed Chair Jerome Powell gave a calming outlook on the U.S. economy.
+
+![Bitcoin, Ethereum and Solana Rise Alongside Stocks Following Fed Comments](https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2024/06/bitcoin-ethereum-btc-eth-crypto-prices-gID_7.jpeg)
+
+Decrypt’s Art, Fashion, and Entertainment Hub. Discover SCENE Major cryptocurrencies including Bitcoin , Ethereum , and Solana are up—along with U.S. equities—after the Federal Reserve on Wednesday held interest rates steady and the central bank's chair gave a calming press conference. The biggest cryptocurrency had jumped before the Fed's announcement, but is now up even more: Bitcoin's price now stands at $85,648, a more than 4% rise over the past day. The price rose as high as $85,890, marking the highest level since March 9. The price of Ethereum is up even more: the second biggest virtual coin is up more than 7% over the same period, with a current price of $2,038. And Solana is currently trading hands for nearly $134, climbing by 8% over a 24-hour period; the coin, which is the sixthbiggest digital asset, jumped by 2% in the hour after Fed Chair Jerome Powell spoke. The wider crypto market is now up by more than 3% over the past day, and its total market cap stands at $2.91 trillion. U.S. stocks surged following Powell's press conference but have cooled off slightly since, with the S&P; 500 and Nasdaq both up by more than 1% on the day. Equities and crypto had taken a battering earlier this month after President Trump's unpredictable tariff announcements left Wall Street second-guessing what the White House would do next. Investors adopted a "risk-off" strategy, leading to a stock market and crypto price correction. But Powell shrugged off concerns in a press conference Wednesday, claiming that Trump's tariffs will have a "transitory" effect on inflation. As expected, the U.S. central bank left its benchmark rate at 4.25% to 4.50% on Wednesday. The Fed cut borrowing costs in September for the first time in four years, ahead of sizable gains for both crypto and stocks—with the surge only accelerating once President Trump won November's election. Edited by Andrew Hayward Daily Debrief Newsletter Start every day with the top news stories right now, plus original features, a podcast, videos and more. Your Email Get it! Get it!

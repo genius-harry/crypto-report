@@ -1,0 +1,19 @@
+[2025-04-08 14:08:32] Initialized BeInCrypto crawler. Output directory: scraped_data/20250408_140832
+[2025-04-08 14:08:32] Max articles to fetch: 2
+[2025-04-08 14:08:32] Starting article processing
+[2025-04-08 14:08:32] Fetching RSS feed from https://beincrypto.com/feed/
+[2025-04-08 14:08:33] Found 12 articles in the RSS feed
+[2025-04-08 14:08:33] Processing article 1/2: Teucrium Launches 2x Leveraged XRP ETF, Polymarket Odds Surge for Spot Approval
+[2025-04-08 14:08:33] Fetching article content from: https://beincrypto.com/teucrium-2x-long-daily-xrp-etf-launch/
+[2025-04-08 14:08:37] Saved article: Teucrium Launches 2x Leveraged XRP ETF, Polymarket Odds Surge for Spot Approval
+[2025-04-08 14:08:37]   Markdown: scraped_data/20250408_140832/20250408_053826_teucrium_launches_2x_leveraged_xrp_etf_polymarket_.md
+[2025-04-08 14:08:37]   JSON: scraped_data/20250408_140832/20250408_053826_teucrium_launches_2x_leveraged_xrp_etf_polymarket_.json
+[2025-04-08 14:08:37] Waiting 4.57 seconds before next article...
+[2025-04-08 14:08:41] Processing article 2/2: Why Is the Crypto Market Up Today?
+[2025-04-08 14:08:41] Fetching article content from: https://beincrypto.com/why-is-the-crypto-market-up-today/
+[2025-04-08 14:08:46] Saved article: Why Is the Crypto Market Up Today?
+[2025-04-08 14:08:46]   Markdown: scraped_data/20250408_140832/20250408_051211_why_is_the_crypto_market_up_today_.md
+[2025-04-08 14:08:46]   JSON: scraped_data/20250408_140832/20250408_051211_why_is_the_crypto_market_up_today_.json
+[2025-04-08 14:08:46] Article processing completed!
+[2025-04-08 14:08:46] Successfully saved: 2/2 articles
+[2025-04-08 14:08:46] Errors: 0/2 articles

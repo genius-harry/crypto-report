@@ -1,0 +1,81 @@
+{
+  "start_time": "2025-04-08T10:58:30.164797",
+  "feeds_processed": 1,
+  "articles_fetched": 10,
+  "successful_scrapes": 10,
+  "failed_scrapes": 0,
+  "articles": [
+    {
+      "url": "https://cointelegraph.com/news/sec-crypto-trading-roundtable-hosts-uniswap-coinbase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title": "SEC crypto trading roundtable to include crypto giants Uniswap, Coinbase",
+      "date": "2025-04-08",
+      "success": true,
+      "markdown_file": "scraped_data/20250408_105830/20250408_105831_sec_crypto_trading_roundtable_to_include_crypto_gi.md"
+    },
+    {
+      "url": "https://cointelegraph.com/news/spanish-police-take-down-20-million-ai-powered-scam?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title": "Spanish police arrest six over $20M AI-powered investment scam",
+      "date": "2025-04-08",
+      "success": true,
+      "markdown_file": "scraped_data/20250408_105830/20250408_105837_spanish_police_arrest_six_over_20m_ai_powered_inve.md"
+    },
+    {
+      "url": "https://cointelegraph.com/news/crypto-lawyer-sues-homeland-security-in-effort-unmask-satoshi?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title": "Lawyer sues US homeland dept to probe supposed Satoshi Nakamoto meeting",
+      "date": "2025-04-08",
+      "success": true,
+      "markdown_file": "scraped_data/20250408_105830/20250408_105844_lawyer_sues_us_homeland_dept_to_probe_supposed_sat.md"
+    },
+    {
+      "url": "https://cointelegraph.com/news/how-low-can-the-bitcoin-price-go?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title": "How low can the Bitcoin price go?",
+      "date": "2025-04-07",
+      "success": true,
+      "markdown_file": "scraped_data/20250408_105830/20250408_105848_how_low_can_the_bitcoin_price_go.md"
+    },
+    {
+      "url": "https://cointelegraph.com/news/janover-price-rises-1000-with-new-crypto-ownership-sol-treasury-plans?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title": "Former Kraken execs acquire real state firm Janover, disclose SOL treasury plans",
+      "date": "2025-04-07",
+      "success": true,
+      "markdown_file": "scraped_data/20250408_105830/20250408_105853_former_kraken_execs_acquire_real_state_firm_janove.md"
+    },
+    {
+      "url": "https://cointelegraph.com/news/why-is-xrp-price-down-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title": "Why is XRP price down today?",
+      "date": "2025-04-07",
+      "success": true,
+      "markdown_file": "scraped_data/20250408_105830/20250408_105858_why_is_xrp_price_down_today.md"
+    },
+    {
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title": "Here\u2019s what happened in crypto today",
+      "date": "2025-04-07",
+      "success": true,
+      "markdown_file": "scraped_data/20250408_105830/20250408_105904_heres_what_happened_in_crypto_today.md"
+    },
+    {
+      "url": "https://cointelegraph.com/news/corporate-bitcoin-treasuries-down-4b-us-tariff-hike-impact?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title": "Corporate Bitcoin treasuries drop more than $4B on US tariff hike impact",
+      "date": "2025-04-07",
+      "success": true,
+      "markdown_file": "scraped_data/20250408_105830/20250408_105908_corporate_bitcoin_treasuries_drop_more_than_4b_on_.md"
+    },
+    {
+      "url": "https://cointelegraph.com/news/why-is-the-crypto-market-down-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title": "Why is the crypto market down today?",
+      "date": "2025-04-07",
+      "success": true,
+      "markdown_file": "scraped_data/20250408_105830/20250408_105912_why_is_the_crypto_market_down_today.md"
+    },
+    {
+      "url": "https://cointelegraph.com/news/bitcoin-on-verge-of-largest-price-drawdown-of-the-bull-market-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title": "Bitcoin on verge of largest \u2018price drawdown\u2019 of the bull market \u2014 Analyst",
+      "date": "2025-04-07",
+      "success": true,
+      "markdown_file": "scraped_data/20250408_105830/20250408_105917_bitcoin_on_verge_of_largest_price_drawdown_of_the_.md"
+    }
+  ],
+  "end_time": "2025-04-08T10:59:20.934738",
+  "duration_seconds": 50.769941
+}

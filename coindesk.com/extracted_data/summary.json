@@ -1,0 +1,21 @@
+{
+  "total_articles": 13,
+  "batch_count": 3,
+  "batches": [
+    {
+      "batch": "coindesk_20250401_162143",
+      "article_count": 0,
+      "timestamp": "2025-04-01T16:43:06.207328"
+    },
+    {
+      "batch": "coindesk_20250401_162338",
+      "article_count": 10,
+      "timestamp": "2025-04-01T16:43:06.257446"
+    },
+    {
+      "batch": "coindesk_20250401_162231",
+      "article_count": 3,
+      "timestamp": "2025-04-01T16:43:06.232485"
+    }
+  ]
+}

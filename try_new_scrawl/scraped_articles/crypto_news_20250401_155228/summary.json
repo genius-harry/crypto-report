@@ -1,0 +1,29 @@
+{
+  "site": "https://crypto.news/",
+  "timestamp": "2025-04-01T15:52:31.705307",
+  "total_articles": 3,
+  "success_count": 3,
+  "articles": [
+    {
+      "url": "https://crypto.news/news/",
+      "title": "Top Cryptocurrency News Today",
+      "scraped_at": "2025-04-01T15:52:29.450778",
+      "markdown_file": "scraped_articles/crypto_news_20250401_155228/20250401_155229_top_cryptocurrency_news_today.md",
+      "success": true
+    },
+    {
+      "url": "https://crypto.news/feature/",
+      "title": "Latest News Features",
+      "scraped_at": "2025-04-01T15:52:30.632826",
+      "markdown_file": "scraped_articles/crypto_news_20250401_155228/20250401_155230_latest_news_features.md",
+      "success": true
+    },
+    {
+      "url": "https://crypto.news/follow-up/",
+      "title": "Follow-up: In-Depth Analysis and Updates on Recent News",
+      "scraped_at": "2025-04-01T15:52:31.704901",
+      "markdown_file": "scraped_articles/crypto_news_20250401_155228/20250401_155231_follow_up_in_depth_analysis_and_updates_on_recent_.md",
+      "success": true
+    }
+  ]
+}

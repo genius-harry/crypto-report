@@ -1,0 +1,34 @@
+{
+  "timestamp": "2025-04-01T15:46:54.344317",
+  "total_articles": 3,
+  "success_count": 3,
+  "articles": [
+    {
+      "url": "https://crypto.news/sir-trading-offers-attacker-100k-bounty-after-losing-entire-tvl-to-exploit/",
+      "title": "SIR.trading offers attacker $100K bounty after losing entire TVL to exploit",
+      "author": "Rony Roy",
+      "date": "2025-04-01T05:39:47+00:00",
+      "scraped_at": "2025-04-01T15:46:52.152478",
+      "markdown_file": "markdown/bs_news_20250401_154651/20250401_154652_sirtrading_offers_attacker_100k_bounty_after_losin.md",
+      "success": true
+    },
+    {
+      "url": "https://crypto.news/crypto-hacks-in-q1-soar-131-yoy-as-losses-hit-1-63b-data-shows/",
+      "title": "Crypto hacks in Q1 soar 131% YoY as losses hit $1.63b, data shows",
+      "author": "Denis Omelchenko",
+      "date": "2025-04-01T06:56:21+00:00",
+      "scraped_at": "2025-04-01T15:46:53.151568",
+      "markdown_file": "markdown/bs_news_20250401_154651/20250401_154653_crypto_hacks_in_q1_soar_131_yoy_as_losses_hit_163b.md",
+      "success": true
+    },
+    {
+      "url": "https://crypto.news/kentucky-drops-crypto-staking-lawsuit-against-coinbase/",
+      "title": "Kentucky drops crypto staking lawsuit against Coinbase",
+      "author": "Rony Roy",
+      "date": "2025-04-01T06:58:05+00:00",
+      "scraped_at": "2025-04-01T15:46:54.343936",
+      "markdown_file": "markdown/bs_news_20250401_154651/20250401_154654_kentucky_drops_crypto_staking_lawsuit_against_coin.md",
+      "success": true
+    }
+  ]
+}

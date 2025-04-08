@@ -1,0 +1,38 @@
+{
+  "url": "https://www.coindesk.com/business/2025/03/31/ai-infused-blockchain-ambient-to-replace-bitcoin-says-co-founder/",
+  "timestamp": "20250401_160224",
+  "articles_found": 5,
+  "articles_scraped": 5,
+  "results": [
+    {
+      "success": true,
+      "url": "https://www.coindesk.com/business/2024/11/20/digital-currency-groups-barry-silbert-bets-big-on-ai-blockchain-bittensor",
+      "title": "Digital Currency Group\u2019s Barry Silbert Bets Big on AI Blockchain Bittensor",
+      "output_file": "20250401_160256_digital_currency_groups_barry_silbert_bets_big_on_.md"
+    },
+    {
+      "success": true,
+      "url": "https://www.coindesk.com/business/2023/02/20/coindesk-wins-a-polk-award-a-top-journalism-prize-for-explosive-ftx-coverage",
+      "title": "CoinDesk Wins a Polk Award, One of Journalism's Top Prizes, for Explosive FTX Coverage",
+      "output_file": "20250401_160320_coindesk_wins_a_polk_award_one_of_journalisms_top_.md"
+    },
+    {
+      "success": true,
+      "url": "https://www.coindesk.com/business/2025/03/31/ai-infused-blockchain-ambient-to-replace-bitcoin-says-co-founder",
+      "title": "AI-Infused Blockchain Ambient to 'Replace Bitcoin,' Says Co-Founder",
+      "output_file": "20250401_160342_ai_infused_blockchain_ambient_to_replace_bitcoin_s.md"
+    },
+    {
+      "success": true,
+      "url": "https://www.coindesk.com/es/business/2025/03/31/ai-infused-blockchain-ambient-to-replace-bitcoin-says-co-founder",
+      "title": "Cofundador de Ambient dice que su blockchain con IA \"reemplazar\u00e1 a Bitcoin\"",
+      "output_file": "20250401_160419_cofundador_de_ambient_dice_que_su_blockchain_con_i.md"
+    },
+    {
+      "success": true,
+      "url": "https://www.coindesk.com/fil/business/2025/03/31/ai-infused-blockchain-ambient-to-replace-bitcoin-says-co-founder",
+      "title": "AI-Infused Blockchain Ambient to 'Palitan ang Bitcoin,' Sabi ng Co-Founder",
+      "output_file": "20250401_160442_ai_infused_blockchain_ambient_to_palitan_ang_bitco.md"
+    }
+  ]
+}

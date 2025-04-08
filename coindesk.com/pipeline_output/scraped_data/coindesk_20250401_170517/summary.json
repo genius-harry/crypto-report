@@ -1,0 +1,39 @@
+{
+  "start_url": "https://www.coindesk.com",
+  "timestamp": "20250401_170517",
+  "sections_visited": 2,
+  "articles_scraped": 5,
+  "success_count": 5,
+  "results": [
+    {
+      "success": true,
+      "url": "https://www.coindesk.com/markets/2025/03/31/metaplanet-issues-usd13m-zero-coupon-bond-to-buy-more-bitcoin",
+      "title": "Metaplanet Issues 2B-Yen Zero-Coupon Bond to Buy More BTC",
+      "output_file": "pipeline_output/scraped_data/coindesk_20250401_170517/20250401_170547_metaplanet_issues_2b_yen_zero_coupon_bond_to_buy_m.md"
+    },
+    {
+      "success": true,
+      "url": "https://www.coindesk.com/markets/2025/03/31/coinshares-s-bitcoin-mining-etf-is-the-worst-performing-fund-of-this-year",
+      "title": "CoinShares Valkyrie BTC Mining (WGMI) ETF Is the Worst Performing ETF of 2025",
+      "output_file": "pipeline_output/scraped_data/coindesk_20250401_170517/20250401_170600_coinshares_valkyrie_btc_mining_wgmi_etf_is_the_wor.md"
+    },
+    {
+      "success": true,
+      "url": "https://www.coindesk.com/markets/2025/03/31/ether-bitcoin-slumps-to-5-year-low-van-straten",
+      "title": "Ether (ETH) Price Underperforms BTC Price, Slumps to 5-Year Relative Low: Van Straten",
+      "output_file": "pipeline_output/scraped_data/coindesk_20250401_170517/20250401_170612_ether_eth_price_underperforms_btc_price_slumps_to_.md"
+    },
+    {
+      "success": true,
+      "url": "https://www.coindesk.com/markets/2025/03/31/no-doge-in-d-o-g-e-says-dogecoin-proponent-elon-musk",
+      "title": "Elon Musk, Dogecoin Proponent and U.S. Agency Figurehead, Says 'No DOGE in D.O.G.E.'",
+      "output_file": "pipeline_output/scraped_data/coindesk_20250401_170517/20250401_170624_elon_musk_dogecoin_proponent_and_us_agency_figureh.md"
+    },
+    {
+      "success": true,
+      "url": "https://www.coindesk.com/markets/2025/03/31/bitcoin-nears-usd81k-xrp-ada-slide-as-traders-brace-for-tariff-war-ahead",
+      "title": "BTC, XRP, ADA News: Bitcoin Nears $81K; Ripple Slides as U.S. Tariffs Loom Ahead",
+      "output_file": "pipeline_output/scraped_data/coindesk_20250401_170517/20250401_170635_btc_xrp_ada_news_bitcoin_nears_81k_ripple_slides_a.md"
+    }
+  ]
+}

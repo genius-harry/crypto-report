@@ -1,0 +1,29 @@
+{
+  "site": "https://www.coindesk.com/",
+  "timestamp": "2025-04-01T15:52:12.385030",
+  "total_articles": 3,
+  "success_count": 3,
+  "articles": [
+    {
+      "url": "https://www.coindesk.com/markets/2025/03/31/bitcoin-headed-below-usd60k-says-hot-handed-crypto-hedge-fund-manager",
+      "title": "Bitcoin Price (BTC) Should Continue Slow Bleed Lower, Says Quinn Thompson",
+      "scraped_at": "2025-04-01T15:52:10.768486",
+      "markdown_file": "scraped_articles/coindesk_com_20250401_155208/20250401_155210_bitcoin_price_btc_should_continue_slow_bleed_lower.md",
+      "success": true
+    },
+    {
+      "url": "https://www.coindesk.com/business/2025/03/31/ai-infused-blockchain-ambient-to-replace-bitcoin-says-co-founder",
+      "title": "AI-Infused Blockchain Ambient to 'Replace Bitcoin,' Says Co-Founder",
+      "scraped_at": "2025-04-01T15:52:11.442508",
+      "markdown_file": "scraped_articles/coindesk_com_20250401_155208/20250401_155211_ai_infused_blockchain_ambient_to_replace_bitcoin_s.md",
+      "success": true
+    },
+    {
+      "url": "https://www.coindesk.com/markets/2025/03/31/trump-family-enters-bitcoin-mining-with-new-venture-american-bitcoin",
+      "title": "Trump Family Enters BTC Mining With American Bitcoin",
+      "scraped_at": "2025-04-01T15:52:12.384594",
+      "markdown_file": "scraped_articles/coindesk_com_20250401_155208/20250401_155212_trump_family_enters_btc_mining_with_american_bitco.md",
+      "success": true
+    }
+  ]
+}

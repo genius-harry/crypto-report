@@ -1,0 +1,25 @@
+# Tether buys $735M Bitcoin in Q1, total holdings reach $8.2B
+
+Source: https://crypto.news/tether-buys-another-735m-in-btc-in-q1-bringing-total-holdings-to-8-2b/
+Author: Leon Okwatch
+Date: 2025-04-01T06:08:13+00:00
+
+![Tether buys another $735M in BTC in Q1, bringing total holdings to $8.2B](https://crypto.news/app/uploads/2024/06/crypto-news-Corruption-and-money-laundering-in-Tether-option07-1380x820.webp)
+
+Tether, the issuer behind the USDT stablecoin, has continued its Bitcoin investment strategy, purchasing an additional 8,888 BTC on the last day of Q1 2025.  
+
+The latest acquisition, which cost $735 million, expands Tether’s ([USDT](https://crypto.news/price/tether/)) total Bitcoin ([BTC](https://crypto.news/price/bitcoin/)) holdings to 100,521 BTC, or roughly $8.29 billion, according to [data](https://intel.arkm.com/explorer/entity/tether) from Arkham Intelligence. 
+
+The acquisition is part of Tether’s ongoing strategy to bolster its reserves by allocating 15% of its profits to Bitcoin purchases, a commitment the company made in May 2023.
+
+Among the company’s other on-chain assets are $5.16 billion in USDT, $215.85 million in XAUT, and $46.17 million in AUSDF.
+
+![Tether buys another $735M in BTC in Q1, bringing total holdings to $8.2B - 1](https://crypto.news/app/uploads/2025/04/IMG_4867-1024x618.jpeg) Tether’s on-chain assets. Credit: [Arkham Intelligence](https://intel.arkm.com/explorer/entity/tether)
+
+Tether’s expansion extends beyond cryptocurrencies. On Mar. 27, the company [increased](https://crypto.news/tether-plans-to-invest-10-8-million-in-italian-media-firm-be-water-report/) its stake in Adecoagro, a Latin American agricultural firm, to 70%. This is in line with Tether’s policy of supporting companies that promote economic freedom, especially in emerging markets. 
+
+To further expand its investments across a variety of industries, Tether plans to purchase a 30% [stake](https://crypto.news/tether-plans-to-invest-10-8-million-in-italian-media-firm-be-water-report/) in the Italian media company Be Water.
+
+The company [reported](https://x.com/paoloardoino/status/1885345499600781421?s=46&t=nznXkss3debX8JIhNzHmzw) a record profit of $13.7 billion last year, according to its Q4 2024 report. It established itself as the biggest stablecoin issuer by issuing USDT totaling $45 billion. With a market valuation of $144 billion, USDT now accounts for 61% of the total stablecoin market, far outpacing competitors such as USD Coin ([USDC](https://crypto.news/price/usd-coin/)), which has a market cap of $60 billion.
+
+To ensure that every USDT issued is completely backed, the company maintains $7 billion in excess stablecoin reserves. Tether also made big moves in traditional markets, becoming 2024’s seventh-largest [buyer](https://crypto.news/tether-was-the-7th-largest-buyer-of-us-treasuries-in-2024-surpassing-canada-and-mexico/) of U.S. Treasury securities with a $33.1 billion investment. This further diversifies Tether’s assets and puts its holdings ahead of nations like Canada, Mexico, and Germany. 

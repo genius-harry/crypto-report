@@ -1,0 +1,28 @@
+{
+  "timestamp": "2025-04-01T15:46:22.258390",
+  "total_articles": 3,
+  "success_count": 0,
+  "articles": [
+    {
+      "url": "https://www.coindesk.com/tech/2024/04/01/ethereums-pectra-upgrade-moves-closer-to-mainnet-after-sepolia-test/",
+      "title": "",
+      "scraped_at": "2025-04-01T15:46:08.775278",
+      "success": false,
+      "error": "Failed to scrape URL"
+    },
+    {
+      "url": "https://www.coindesk.com/markets/2024/04/01/crypto-daybook-americas-trumps-reserve-rumors-swirl-as-btc-rebound-eyes-95k/",
+      "title": "",
+      "scraped_at": "2025-04-01T15:46:15.258787",
+      "success": false,
+      "error": "Failed to scrape URL"
+    },
+    {
+      "url": "https://www.coindesk.com/markets/2024/04/01/bitcoin-could-swing-back-to-95k-amid-signs-of-btc-bear-exhaustion/",
+      "title": "",
+      "scraped_at": "2025-04-01T15:46:22.258224",
+      "success": false,
+      "error": "Failed to scrape URL"
+    }
+  ]
+}
