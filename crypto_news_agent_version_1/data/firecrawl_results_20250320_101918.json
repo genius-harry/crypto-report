@@ -1,0 +1,145 @@
+{
+  "scrape_results": [
+    {
+      "url": "https://www.gadgets360.com/finance/crypto-currency-price-in-india-inr-compare-bitcoin-ether-dogecoin-ripple-litecoin",
+      "title": "Cryptocurrency Prices in India Today (20th March 2025): Compare ...",
+      "scraped_at": "2025-03-20T10:19:22.578740",
+      "success": false,
+      "error": "Failed to scrape URL"
+    },
+    {
+      "url": "https://www.livemint.com/market/cryptocurrency",
+      "title": "Cryptocurrency: Latest Crypto News, Prices & Charts - Bitcoin ...",
+      "scraped_at": "2025-03-20T10:19:24.015375",
+      "success": false,
+      "error": "Failed to scrape URL"
+    },
+    {
+      "url": "https://www.bitget.com/price/ripple/news",
+      "title": "XRP News Today | Latest XRP Updates | Bitget",
+      "scraped_at": "2025-03-20T10:19:25.770210",
+      "success": false,
+      "error": "Failed to scrape URL"
+    },
+    {
+      "url": "https://www.reddit.com/r/CryptoCurrency/",
+      "title": "Cryptocurrency News & Discussion",
+      "scraped_at": "2025-03-20T10:19:27.411618",
+      "success": false,
+      "error": "Failed to scrape URL"
+    },
+    {
+      "url": "https://www.threads.net/@hugo_hall_crypto",
+      "title": "Hugo Hall (@hugo_hall_crypto) • Threads, Say more",
+      "scraped_at": "2025-03-20T10:19:29.046060",
+      "success": false,
+      "error": "Failed to scrape URL"
+    },
+    {
+      "url": "https://www.binance.com/events/yield-arena",
+      "title": "Binance Earn Yield Arena",
+      "scraped_at": "2025-03-20T10:19:30.788109",
+      "success": false,
+      "error": "Failed to scrape URL"
+    },
+    {
+      "url": "https://www.coincarp.com/exchange/announcement/mexc-17827791522631/",
+      "title": "Voting Result and Listing Arrangement for Kickstarter - RealtyX (RX ...",
+      "scraped_at": "2025-03-20T10:19:32.452185",
+      "success": false,
+      "error": "Failed to scrape URL"
+    },
+    {
+      "url": "https://cryptonews.com.au/news/",
+      "title": "News - Crypto News Australia",
+      "scraped_at": "2025-03-20T10:19:34.167119",
+      "success": false,
+      "error": "Failed to scrape URL"
+    },
+    {
+      "url": "https://blockchain.news/flashnews/avoid-leveraged-trading-during-fomc-meetings-powell-s-words-key-to-bitcoin-s-price-action",
+      "title": "Avoid Leveraged Trading During FOMC Meetings, Powell's Words ...",
+      "scraped_at": "2025-03-20T10:19:35.610494",
+      "success": false,
+      "error": "Failed to scrape URL"
+    },
+    {
+      "url": "https://www.threads.net/@andrey_kovalenko_crypto/post/DHYwf4Xq3v4",
+      "title": "Crypto News Shark Channel - March 20, 2025 $ETH (Ethereum ...",
+      "scraped_at": "2025-03-20T10:19:37.126968",
+      "success": false,
+      "error": "Failed to scrape URL"
+    },
+    {
+      "url": "https://theindustryspread.com/ethereums-defi-market-shrinks-by-29-billion-in-30-days/",
+      "title": "Ethereum's DeFi Market Shrinks By $29 Billion In 30 Days - The ...",
+      "scraped_at": "2025-03-20T10:19:38.545721",
+      "success": false,
+      "error": "Failed to scrape URL"
+    },
+    {
+      "url": "https://uk.marketscreener.com/quote/stock/BBVA-69719/news/European-Equities-Traded-in-the-US-as-American-Depositary-Receipts-Track-Lower-in-Wednesday-Trading-49377018/",
+      "title": "European Equities Traded in the US as American Depositary ...",
+      "scraped_at": "2025-03-20T10:19:40.003917",
+      "success": false,
+      "error": "Failed to scrape URL"
+    },
+    {
+      "url": "https://markets.businessinsider.com/news/stocks/xrp-goes-multi-chain-bitget-wallet-s-super-dex-unlocks-xrp-trading-amid-ripple-s-legal-win-1034493634",
+      "title": "XRP Goes Multi-Chain: Bitget Wallet's Super DEX Unlocks XRP ...",
+      "scraped_at": "2025-03-20T10:19:41.745901",
+      "success": false,
+      "error": "Failed to scrape URL"
+    },
+    {
+      "url": "https://x.com/weex_official?lang=en",
+      "title": "WEEX (@WEEX_Official) / X",
+      "scraped_at": "2025-03-20T10:19:43.485956",
+      "success": false,
+      "error": "Failed to scrape URL"
+    },
+    {
+      "url": "https://www.binance.com/en/square/profile/square-creator-e02686475",
+      "title": "shireen gull's Profile | Binance Square",
+      "scraped_at": "2025-03-20T10:19:45.228763",
+      "success": false,
+      "error": "Failed to scrape URL"
+    },
+    {
+      "url": "https://www.coinmarketcal.com/en/?page=3",
+      "title": "CoinMarketCal - Cryptoasset Calendar",
+      "scraped_at": "2025-03-20T10:19:46.646847",
+      "success": false,
+      "error": "Failed to scrape URL"
+    },
+    {
+      "url": "https://www.reddit.com/r/wallstreetbets/rising/",
+      "title": "wallstreetbets",
+      "scraped_at": "2025-03-20T10:19:48.094615",
+      "success": false,
+      "error": "Failed to scrape URL"
+    },
+    {
+      "url": "https://rumble.com/v6qvm4s-eth-prophecy-1200-23591903.2025-19.mar.2025.to.20.mar.2025.html?e9s=src_v1_cvp",
+      "title": "ETH⬆️?⬇️? #Prophecy (12:00-23:59)1903.2025 19.Mar.2025.to ...",
+      "scraped_at": "2025-03-20T10:19:49.521316",
+      "success": false,
+      "error": "Failed to scrape URL"
+    },
+    {
+      "url": "https://cryptonews.com.au/news/ethereum-gaming-token-heroes-of-mavia-surges-430-while-markets-struggle-127932/",
+      "title": "Ethereum Gaming Token Heroes of Mavia Surges 430% While ...",
+      "scraped_at": "2025-03-20T10:19:50.951814",
+      "success": false,
+      "error": "Failed to scrape URL"
+    },
+    {
+      "url": "https://markets.businessinsider.com/news/stocks/gabelli-funds-to-host-16th-annual-specialty-chemicals-symposium-thursday-march-20-2025-1034487844",
+      "title": "Gabelli Funds to Host 16th Annual Specialty Chemicals Symposium ...",
+      "scraped_at": "2025-03-20T10:19:52.496132",
+      "success": false,
+      "error": "Failed to scrape URL"
+    }
+  ],
+  "timestamp": "2025-03-20T10:19:53.500755"
+}
