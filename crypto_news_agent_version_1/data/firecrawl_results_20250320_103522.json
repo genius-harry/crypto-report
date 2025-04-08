@@ -1,0 +1,145 @@
+{
+  "scrape_results": [
+    {
+      "url": "https://www.coingecko.com/en/coins/cardano/btc",
+      "title": "ADA to BTC: Cardano Price in Bitcoin | CoinGecko",
+      "scraped_at": "2025-03-20T10:35:37.211210",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/20250320_103537_ada_to_btc_cardano_price_in_bitcoin_coingecko.md",
+      "success": true
+    },
+    {
+      "url": "https://www.gadgets360.com/finance/crypto-currency-price-in-india-inr-compare-bitcoin-ether-dogecoin-ripple-litecoin",
+      "title": "Cryptocurrency Prices in India Today (20th March 2025): Compare ...",
+      "scraped_at": "2025-03-20T10:36:06.772870",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/20250320_103606_cryptocurrency_prices_in_india_today_20th_march_20.md",
+      "success": true
+    },
+    {
+      "url": "https://www.livemint.com/market/cryptocurrency",
+      "title": "Cryptocurrency: Latest Crypto News, Prices & Charts - Bitcoin ...",
+      "scraped_at": "2025-03-20T10:36:16.298833",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/20250320_103616_cryptocurrency_latest_crypto_news_prices_charts_bi.md",
+      "success": true
+    },
+    {
+      "url": "https://www.bitget.com/price/ripple/news",
+      "title": "XRP News Today | Latest XRP Updates | Bitget",
+      "scraped_at": "2025-03-20T10:36:30.323107",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/20250320_103630_xrp_news_today_latest_xrp_updates_bitget.md",
+      "success": true
+    },
+    {
+      "url": "https://www.reddit.com/r/CryptoCurrency/",
+      "title": "Cryptocurrency News & Discussion",
+      "scraped_at": "2025-03-20T10:36:31.733721",
+      "success": false,
+      "error": "Failed to scrape URL"
+    },
+    {
+      "url": "https://www.threads.net/@hugo_hall_crypto",
+      "title": "Hugo Hall (@hugo_hall_crypto) • Threads, Say more",
+      "scraped_at": "2025-03-20T10:36:43.662364",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/20250320_103643_hugo_hall_hugo_hall_crypto_threads_say_more.md",
+      "success": true
+    },
+    {
+      "url": "https://www.binance.com/events/yield-arena",
+      "title": "Binance Earn Yield Arena",
+      "scraped_at": "2025-03-20T10:36:56.139471",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/20250320_103656_binance_earn_yield_arena.md",
+      "success": true
+    },
+    {
+      "url": "https://www.coincarp.com/exchange/announcement/mexc-17827791522631/",
+      "title": "Voting Result and Listing Arrangement for Kickstarter - RealtyX (RX ...",
+      "scraped_at": "2025-03-20T10:37:07.181593",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/20250320_103707_voting_result_and_listing_arrangement_for_kickstar.md",
+      "success": true
+    },
+    {
+      "url": "https://cryptonews.com.au/news/",
+      "title": "News - Crypto News Australia",
+      "scraped_at": "2025-03-20T10:37:17.607545",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/20250320_103717_news_crypto_news_australia.md",
+      "success": true
+    },
+    {
+      "url": "https://blockchain.news/flashnews/avoid-leveraged-trading-during-fomc-meetings-powell-s-words-key-to-bitcoin-s-price-action",
+      "title": "Avoid Leveraged Trading During FOMC Meetings, Powell's Words ...",
+      "scraped_at": "2025-03-20T10:37:30.790145",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/20250320_103730_avoid_leveraged_trading_during_fomc_meetings_powel.md",
+      "success": true
+    },
+    {
+      "url": "https://www.threads.net/@andrey_kovalenko_crypto/post/DHYwf4Xq3v4",
+      "title": "Crypto News Shark Channel - March 20, 2025 $ETH (Ethereum ...",
+      "scraped_at": "2025-03-20T10:38:00.763829",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/20250320_103800_crypto_news_shark_channel_march_20_2025_eth_ethere.md",
+      "success": true
+    },
+    {
+      "url": "https://www.coincarp.com/events/szn-new-listing-on-htx/",
+      "title": "szn(SZN) New Listing on HTX at March 19, 2025 UTC | CoinCarp",
+      "scraped_at": "2025-03-20T10:38:10.794225",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/20250320_103810_sznszn_new_listing_on_htx_at_march_19_2025_utc_coi.md",
+      "success": true
+    },
+    {
+      "url": "https://theindustryspread.com/ethereums-defi-market-shrinks-by-29-billion-in-30-days/",
+      "title": "Ethereum's DeFi Market Shrinks By $29 Billion In 30 Days - The ...",
+      "scraped_at": "2025-03-20T10:38:21.753204",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/20250320_103821_ethereums_defi_market_shrinks_by_29_billion_in_30_.md",
+      "success": true
+    },
+    {
+      "url": "https://uk.marketscreener.com/quote/stock/BBVA-69719/news/European-Equities-Traded-in-the-US-as-American-Depositary-Receipts-Track-Lower-in-Wednesday-Trading-49377018/",
+      "title": "European Equities Traded in the US as American Depositary ...",
+      "scraped_at": "2025-03-20T10:38:31.991567",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/20250320_103831_european_equities_traded_in_the_us_as_american_dep.md",
+      "success": true
+    },
+    {
+      "url": "https://markets.businessinsider.com/news/stocks/xrp-goes-multi-chain-bitget-wallet-s-super-dex-unlocks-xrp-trading-amid-ripple-s-legal-win-1034493634",
+      "title": "XRP Goes Multi-Chain: Bitget Wallet's Super DEX Unlocks XRP ...",
+      "scraped_at": "2025-03-20T10:38:45.199251",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/20250320_103845_xrp_goes_multi_chain_bitget_wallets_super_dex_unlo.md",
+      "success": true
+    },
+    {
+      "url": "https://x.com/weex_official?lang=en",
+      "title": "WEEX (@WEEX_Official) / X",
+      "scraped_at": "2025-03-20T10:38:47.077346",
+      "success": false,
+      "error": "Failed to scrape URL"
+    },
+    {
+      "url": "https://www.binance.com/en/square/profile/square-creator-e02686475",
+      "title": "shireen gull's Profile | Binance Square",
+      "scraped_at": "2025-03-20T10:39:02.760438",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/20250320_103902_shireen_gulls_profile_binance_square.md",
+      "success": true
+    },
+    {
+      "url": "https://www.coinmarketcal.com/en/?page=3",
+      "title": "CoinMarketCal - Cryptoasset Calendar",
+      "scraped_at": "2025-03-20T10:39:30.357893",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/20250320_103930_coinmarketcal_cryptoasset_calendar.md",
+      "success": true
+    },
+    {
+      "url": "https://www.reddit.com/r/wallstreetbets/rising/",
+      "title": "wallstreetbets",
+      "scraped_at": "2025-03-20T10:39:31.783925",
+      "success": false,
+      "error": "Failed to scrape URL"
+    },
+    {
+      "url": "https://rumble.com/v6qvm4s-eth-prophecy-1200-23591903.2025-19.mar.2025.to.20.mar.2025.html?e9s=src_v1_cvp",
+      "title": "ETH⬆️?⬇️? #Prophecy (12:00-23:59)1903.2025 19.Mar.2025.to ...",
+      "scraped_at": "2025-03-20T10:39:42.716901",
+      "markdown_file": "/Users/yiranyao/Documents/Cursor/crypto report/crypto_news_agent_version_1/markdown/20250320_103942_eth_prophecy_1200_235919032025_19mar2025to_.md",
+      "success": true
+    }
+  ],
+  "timestamp": "2025-03-20T10:39:43.719780"
+}
