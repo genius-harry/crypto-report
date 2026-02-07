@@ -20,6 +20,7 @@ build/
 # Local development settings
 .idea/
 .vscode/
+.cursor/
 *.swp
 *.swo
 
@@ -30,4 +31,26 @@ build/
 .Spotlight-V100
 .Trashes
 ehthumbs.db
-Thumbs.db 
+Thumbs.db
+
+# Generated data and output
+data/
+markdown/
+output/
+static/graph_data.json
+static/crypto_network.html
+static/topic_network.html
+
+# Scraped data from crawlers
+scraped_data/
+rss_scraped_data/
+extracted_data/
+pipeline_output/
+
+# Downloaded HTML files
+*.html
+!**/templates/*.html
+
+# Debug files
+debug_*.html
+debug_*.py
