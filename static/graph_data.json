@@ -2,95 +2,95 @@
   "nodes": [
     {
       "id": 0,
-      "name": "Cardano",
-      "type": "Cryptocurrency",
-      "symbol": "ADA",
-      "group": 1
-    },
-    {
-      "id": 1,
-      "name": "Litecoin",
-      "type": "Cryptocurrency",
-      "symbol": "LTC",
-      "group": 1
-    },
-    {
-      "id": 2,
-      "name": "Chainlink",
-      "type": "Cryptocurrency",
-      "symbol": "LINK",
-      "group": 1
-    },
-    {
-      "id": 3,
-      "name": "USD Coin",
-      "type": "Cryptocurrency",
-      "symbol": "USDC",
-      "group": 1
-    },
-    {
-      "id": 4,
       "name": "Bitcoin",
       "type": "Cryptocurrency",
       "symbol": "BTC",
       "group": 1
     },
     {
-      "id": 5,
+      "id": 1,
       "name": "Ethereum",
       "type": "Cryptocurrency",
       "symbol": "ETH",
       "group": 1
     },
     {
-      "id": 6,
+      "id": 2,
       "name": "Ripple",
       "type": "Cryptocurrency",
       "symbol": "XRP",
       "group": 1
     },
     {
-      "id": 7,
+      "id": 3,
       "name": "Solana",
       "type": "Cryptocurrency",
       "symbol": "SOL",
       "group": 1
     },
     {
-      "id": 8,
+      "id": 4,
+      "name": "Cardano",
+      "type": "Cryptocurrency",
+      "symbol": "ADA",
+      "group": 1
+    },
+    {
+      "id": 5,
       "name": "Tether",
       "type": "Cryptocurrency",
       "symbol": "USDT",
       "group": 1
     },
     {
-      "id": 9,
+      "id": 6,
       "name": "Binance Coin",
       "type": "Cryptocurrency",
       "symbol": "BNB",
       "group": 1
     },
     {
+      "id": 7,
+      "name": "Litecoin",
+      "type": "Cryptocurrency",
+      "symbol": "LTC",
+      "group": 1
+    },
+    {
+      "id": 8,
+      "name": "Chainlink",
+      "type": "Cryptocurrency",
+      "symbol": "LINK",
+      "group": 1
+    },
+    {
+      "id": 9,
+      "name": "USD Coin",
+      "type": "Cryptocurrency",
+      "symbol": "USDC",
+      "group": 1
+    },
+    {
       "id": 10,
-      "name": "Politics",
+      "name": "DeFi",
       "type": "Topic",
       "group": 2
     },
     {
       "id": 11,
-      "name": "Institutional Adoption",
+      "name": "Regulation",
       "type": "Topic",
       "group": 2
     },
     {
       "id": 12,
-      "name": "ETF",
+      "name": "Price Movement",
       "type": "Topic",
       "group": 2
     },
     {
       "id": 13,
-      "name": "Layer 2",
+      "name": "Politics",
       "type": "Topic",
       "group": 2
     },
@@ -102,43 +102,43 @@
     },
     {
       "id": 15,
-      "name": "DeFi",
-      "type": "Topic",
-      "group": 2
-    },
-    {
-      "id": 16,
-      "name": "NFT",
-      "type": "Topic",
-      "group": 2
-    },
-    {
-      "id": 17,
-      "name": "Regulation",
-      "type": "Topic",
-      "group": 2
-    },
-    {
-      "id": 18,
       "name": "Trading",
       "type": "Topic",
       "group": 2
     },
     {
-      "id": 19,
+      "id": 16,
       "name": "Mining",
       "type": "Topic",
       "group": 2
     },
     {
+      "id": 17,
+      "name": "Stablecoins",
+      "type": "Topic",
+      "group": 2
+    },
+    {
+      "id": 18,
+      "name": "Institutional Adoption",
+      "type": "Topic",
+      "group": 2
+    },
+    {
+      "id": 19,
+      "name": "ETF",
+      "type": "Topic",
+      "group": 2
+    },
+    {
       "id": 20,
-      "name": "Price Movement",
+      "name": "Layer 2",
       "type": "Topic",
       "group": 2
     },
     {
       "id": 21,
-      "name": "Stablecoins",
+      "name": "NFT",
       "type": "Topic",
       "group": 2
     },
@@ -198,19 +198,19 @@
     },
     {
       "id": 31,
-      "name": "Should Bitcoin, Ethereum, XRP traders buy with Trump push ahead of FOMC meeting",
+      "name": "Top 3 Price Prediction Bitcoin, Ethereum, Ripple: BTC, ETH, XRP gain as MicroStrategy buys $10.7 million BTC",
       "type": "Article",
       "group": 3
     },
     {
       "id": 32,
-      "name": "A Few Major New Players Are Buying Bitcoin and Ethereum. Should You?",
+      "name": "Should Bitcoin, Ethereum, XRP traders buy with Trump push ahead of FOMC meeting",
       "type": "Article",
       "group": 3
     },
     {
       "id": 33,
-      "name": "Top 3 Price Prediction Bitcoin, Ethereum, Ripple: BTC, ETH, XRP gain as MicroStrategy buys $10.7 million BTC",
+      "name": "A Few Major New Players Are Buying Bitcoin and Ethereum. Should You?",
       "type": "Article",
       "group": 3
     },
@@ -236,24 +236,24 @@
   "links": [
     {
       "source": 22,
-      "target": 4,
+      "target": 0,
       "type": "MENTIONS_CRYPTO",
       "value": 1
     },
     {
-      "source": 4,
+      "source": 0,
       "target": 22,
       "type": "MENTIONS_CRYPTO",
       "value": 1
     },
     {
       "source": 22,
-      "target": 5,
+      "target": 1,
       "type": "MENTIONS_CRYPTO",
       "value": 1
     },
     {
-      "source": 5,
+      "source": 1,
       "target": 22,
       "type": "MENTIONS_CRYPTO",
       "value": 1
@@ -266,6 +266,30 @@
     },
     {
       "source": 10,
+      "target": 22,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 22,
+      "target": 11,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 11,
+      "target": 22,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 22,
+      "target": 12,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 12,
       "target": 22,
       "type": "HAS_TOPIC",
       "value": 1
@@ -280,378 +304,6 @@
       "source": 13,
       "target": 22,
       "type": "HAS_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 22,
-      "target": 15,
-      "type": "HAS_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 15,
-      "target": 22,
-      "type": "HAS_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 22,
-      "target": 17,
-      "type": "HAS_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 17,
-      "target": 22,
-      "type": "HAS_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 22,
-      "target": 20,
-      "type": "HAS_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 20,
-      "target": 22,
-      "type": "HAS_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 22,
-      "target": 11,
-      "type": "SIMILAR",
-      "value": 1
-    },
-    {
-      "source": 11,
-      "target": 22,
-      "type": "SIMILAR",
-      "value": 1
-    },
-    {
-      "source": 22,
-      "target": 12,
-      "type": "SIMILAR",
-      "value": 1
-    },
-    {
-      "source": 12,
-      "target": 22,
-      "type": "SIMILAR",
-      "value": 1
-    },
-    {
-      "source": 22,
-      "target": 28,
-      "type": "SIMILAR",
-      "value": 1
-    },
-    {
-      "source": 28,
-      "target": 22,
-      "type": "SIMILAR",
-      "value": 1
-    },
-    {
-      "source": 22,
-      "target": 29,
-      "type": "SIMILAR",
-      "value": 1
-    },
-    {
-      "source": 29,
-      "target": 22,
-      "type": "SIMILAR",
-      "value": 1
-    },
-    {
-      "source": 22,
-      "target": 32,
-      "type": "SIMILAR",
-      "value": 1
-    },
-    {
-      "source": 32,
-      "target": 22,
-      "type": "SIMILAR",
-      "value": 1
-    },
-    {
-      "source": 22,
-      "target": 34,
-      "type": "SIMILAR",
-      "value": 1
-    },
-    {
-      "source": 34,
-      "target": 22,
-      "type": "SIMILAR",
-      "value": 1
-    },
-    {
-      "source": 22,
-      "target": 36,
-      "type": "SIMILAR",
-      "value": 1
-    },
-    {
-      "source": 36,
-      "target": 22,
-      "type": "SIMILAR",
-      "value": 1
-    },
-    {
-      "source": 10,
-      "target": 11,
-      "type": "RELATED_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 11,
-      "target": 10,
-      "type": "RELATED_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 10,
-      "target": 12,
-      "type": "RELATED_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 12,
-      "target": 10,
-      "type": "RELATED_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 10,
-      "target": 13,
-      "type": "RELATED_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 13,
-      "target": 10,
-      "type": "RELATED_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 10,
-      "target": 14,
-      "type": "RELATED_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 14,
-      "target": 10,
-      "type": "RELATED_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 10,
-      "target": 15,
-      "type": "RELATED_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 15,
-      "target": 10,
-      "type": "RELATED_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 10,
-      "target": 16,
-      "type": "RELATED_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 16,
-      "target": 10,
-      "type": "RELATED_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 10,
-      "target": 17,
-      "type": "RELATED_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 17,
-      "target": 10,
-      "type": "RELATED_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 10,
-      "target": 18,
-      "type": "RELATED_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 18,
-      "target": 10,
-      "type": "RELATED_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 10,
-      "target": 19,
-      "type": "RELATED_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 19,
-      "target": 10,
-      "type": "RELATED_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 10,
-      "target": 20,
-      "type": "RELATED_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 20,
-      "target": 10,
-      "type": "RELATED_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 10,
-      "target": 21,
-      "type": "RELATED_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 21,
-      "target": 10,
-      "type": "RELATED_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 10,
-      "target": 11,
-      "type": "SIMILAR",
-      "value": 1
-    },
-    {
-      "source": 11,
-      "target": 10,
-      "type": "SIMILAR",
-      "value": 1
-    },
-    {
-      "source": 10,
-      "target": 12,
-      "type": "SIMILAR",
-      "value": 1
-    },
-    {
-      "source": 12,
-      "target": 10,
-      "type": "SIMILAR",
-      "value": 1
-    },
-    {
-      "source": 10,
-      "target": 13,
-      "type": "SIMILAR",
-      "value": 1
-    },
-    {
-      "source": 13,
-      "target": 10,
-      "type": "SIMILAR",
-      "value": 1
-    },
-    {
-      "source": 10,
-      "target": 14,
-      "type": "SIMILAR",
-      "value": 1
-    },
-    {
-      "source": 14,
-      "target": 10,
-      "type": "SIMILAR",
-      "value": 1
-    },
-    {
-      "source": 10,
-      "target": 15,
-      "type": "SIMILAR",
-      "value": 1
-    },
-    {
-      "source": 15,
-      "target": 10,
-      "type": "SIMILAR",
-      "value": 1
-    },
-    {
-      "source": 10,
-      "target": 16,
-      "type": "SIMILAR",
-      "value": 1
-    },
-    {
-      "source": 16,
-      "target": 10,
-      "type": "SIMILAR",
-      "value": 1
-    },
-    {
-      "source": 10,
-      "target": 17,
-      "type": "SIMILAR",
-      "value": 1
-    },
-    {
-      "source": 17,
-      "target": 10,
-      "type": "SIMILAR",
-      "value": 1
-    },
-    {
-      "source": 10,
-      "target": 18,
-      "type": "SIMILAR",
-      "value": 1
-    },
-    {
-      "source": 18,
-      "target": 10,
-      "type": "SIMILAR",
-      "value": 1
-    },
-    {
-      "source": 10,
-      "target": 19,
-      "type": "SIMILAR",
-      "value": 1
-    },
-    {
-      "source": 19,
-      "target": 10,
-      "type": "SIMILAR",
-      "value": 1
-    },
-    {
-      "source": 10,
-      "target": 20,
-      "type": "SIMILAR",
-      "value": 1
-    },
-    {
-      "source": 20,
-      "target": 10,
-      "type": "SIMILAR",
       "value": 1
     },
     {
@@ -668,6 +320,42 @@
     },
     {
       "source": 23,
+      "target": 1,
+      "type": "MENTIONS_CRYPTO",
+      "value": 1
+    },
+    {
+      "source": 1,
+      "target": 23,
+      "type": "MENTIONS_CRYPTO",
+      "value": 1
+    },
+    {
+      "source": 23,
+      "target": 2,
+      "type": "MENTIONS_CRYPTO",
+      "value": 1
+    },
+    {
+      "source": 2,
+      "target": 23,
+      "type": "MENTIONS_CRYPTO",
+      "value": 1
+    },
+    {
+      "source": 23,
+      "target": 3,
+      "type": "MENTIONS_CRYPTO",
+      "value": 1
+    },
+    {
+      "source": 3,
+      "target": 23,
+      "type": "MENTIONS_CRYPTO",
+      "value": 1
+    },
+    {
+      "source": 23,
       "target": 4,
       "type": "MENTIONS_CRYPTO",
       "value": 1
@@ -680,374 +368,686 @@
     },
     {
       "source": 23,
+      "target": 14,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 14,
+      "target": 23,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 23,
+      "target": 11,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 11,
+      "target": 23,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 23,
+      "target": 15,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 15,
+      "target": 23,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 23,
+      "target": 16,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 16,
+      "target": 23,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 23,
+      "target": 12,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 12,
+      "target": 23,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 23,
+      "target": 17,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 17,
+      "target": 23,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 23,
+      "target": 18,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 18,
+      "target": 23,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 23,
+      "target": 19,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 19,
+      "target": 23,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 23,
+      "target": 20,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 20,
+      "target": 23,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 24,
+      "target": 0,
+      "type": "MENTIONS_CRYPTO",
+      "value": 1
+    },
+    {
+      "source": 0,
+      "target": 24,
+      "type": "MENTIONS_CRYPTO",
+      "value": 1
+    },
+    {
+      "source": 24,
+      "target": 1,
+      "type": "MENTIONS_CRYPTO",
+      "value": 1
+    },
+    {
+      "source": 1,
+      "target": 24,
+      "type": "MENTIONS_CRYPTO",
+      "value": 1
+    },
+    {
+      "source": 24,
+      "target": 2,
+      "type": "MENTIONS_CRYPTO",
+      "value": 1
+    },
+    {
+      "source": 2,
+      "target": 24,
+      "type": "MENTIONS_CRYPTO",
+      "value": 1
+    },
+    {
+      "source": 24,
+      "target": 15,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 15,
+      "target": 24,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 24,
+      "target": 12,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 12,
+      "target": 24,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 25,
+      "target": 0,
+      "type": "MENTIONS_CRYPTO",
+      "value": 1
+    },
+    {
+      "source": 0,
+      "target": 25,
+      "type": "MENTIONS_CRYPTO",
+      "value": 1
+    },
+    {
+      "source": 25,
+      "target": 1,
+      "type": "MENTIONS_CRYPTO",
+      "value": 1
+    },
+    {
+      "source": 1,
+      "target": 25,
+      "type": "MENTIONS_CRYPTO",
+      "value": 1
+    },
+    {
+      "source": 25,
+      "target": 2,
+      "type": "MENTIONS_CRYPTO",
+      "value": 1
+    },
+    {
+      "source": 2,
+      "target": 25,
+      "type": "MENTIONS_CRYPTO",
+      "value": 1
+    },
+    {
+      "source": 25,
+      "target": 3,
+      "type": "MENTIONS_CRYPTO",
+      "value": 1
+    },
+    {
+      "source": 3,
+      "target": 25,
+      "type": "MENTIONS_CRYPTO",
+      "value": 1
+    },
+    {
+      "source": 25,
       "target": 5,
       "type": "MENTIONS_CRYPTO",
       "value": 1
     },
     {
       "source": 5,
-      "target": 23,
+      "target": 25,
       "type": "MENTIONS_CRYPTO",
       "value": 1
     },
     {
-      "source": 23,
+      "source": 25,
       "target": 6,
       "type": "MENTIONS_CRYPTO",
       "value": 1
     },
     {
       "source": 6,
-      "target": 23,
+      "target": 25,
       "type": "MENTIONS_CRYPTO",
       "value": 1
     },
     {
-      "source": 23,
+      "source": 25,
+      "target": 4,
+      "type": "MENTIONS_CRYPTO",
+      "value": 1
+    },
+    {
+      "source": 4,
+      "target": 25,
+      "type": "MENTIONS_CRYPTO",
+      "value": 1
+    },
+    {
+      "source": 25,
       "target": 7,
       "type": "MENTIONS_CRYPTO",
       "value": 1
     },
     {
       "source": 7,
-      "target": 23,
+      "target": 25,
       "type": "MENTIONS_CRYPTO",
       "value": 1
     },
     {
-      "source": 23,
-      "target": 11,
-      "type": "HAS_TOPIC",
+      "source": 25,
+      "target": 8,
+      "type": "MENTIONS_CRYPTO",
       "value": 1
     },
     {
-      "source": 11,
-      "target": 23,
-      "type": "HAS_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 23,
-      "target": 12,
-      "type": "HAS_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 12,
-      "target": 23,
-      "type": "HAS_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 23,
-      "target": 13,
-      "type": "HAS_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 13,
-      "target": 23,
-      "type": "HAS_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 23,
-      "target": 14,
-      "type": "HAS_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 14,
-      "target": 23,
-      "type": "HAS_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 23,
-      "target": 17,
-      "type": "HAS_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 17,
-      "target": 23,
-      "type": "HAS_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 23,
-      "target": 18,
-      "type": "HAS_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 18,
-      "target": 23,
-      "type": "HAS_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 23,
-      "target": 19,
-      "type": "HAS_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 19,
-      "target": 23,
-      "type": "HAS_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 23,
-      "target": 20,
-      "type": "HAS_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 20,
-      "target": 23,
-      "type": "HAS_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 23,
-      "target": 21,
-      "type": "HAS_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 21,
-      "target": 23,
-      "type": "HAS_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 23,
-      "target": 10,
-      "type": "SIMILAR",
-      "value": 1
-    },
-    {
-      "source": 10,
-      "target": 23,
-      "type": "SIMILAR",
-      "value": 1
-    },
-    {
-      "source": 23,
+      "source": 8,
       "target": 25,
-      "type": "SIMILAR",
+      "type": "MENTIONS_CRYPTO",
       "value": 1
     },
     {
       "source": 25,
-      "target": 23,
-      "type": "SIMILAR",
+      "target": 9,
+      "type": "MENTIONS_CRYPTO",
       "value": 1
     },
     {
-      "source": 23,
-      "target": 26,
-      "type": "SIMILAR",
+      "source": 9,
+      "target": 25,
+      "type": "MENTIONS_CRYPTO",
       "value": 1
     },
     {
-      "source": 26,
-      "target": 23,
-      "type": "SIMILAR",
-      "value": 1
-    },
-    {
-      "source": 23,
-      "target": 27,
-      "type": "SIMILAR",
-      "value": 1
-    },
-    {
-      "source": 27,
-      "target": 23,
-      "type": "SIMILAR",
-      "value": 1
-    },
-    {
-      "source": 23,
-      "target": 30,
-      "type": "SIMILAR",
-      "value": 1
-    },
-    {
-      "source": 30,
-      "target": 23,
-      "type": "SIMILAR",
-      "value": 1
-    },
-    {
-      "source": 23,
-      "target": 33,
-      "type": "SIMILAR",
-      "value": 1
-    },
-    {
-      "source": 33,
-      "target": 23,
-      "type": "SIMILAR",
-      "value": 1
-    },
-    {
-      "source": 23,
-      "target": 15,
-      "type": "SIMILAR",
-      "value": 1
-    },
-    {
-      "source": 15,
-      "target": 23,
-      "type": "SIMILAR",
-      "value": 1
-    },
-    {
-      "source": 23,
-      "target": 16,
-      "type": "SIMILAR",
-      "value": 1
-    },
-    {
-      "source": 16,
-      "target": 23,
-      "type": "SIMILAR",
-      "value": 1
-    },
-    {
-      "source": 11,
-      "target": 10,
-      "type": "RELATED_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 10,
-      "target": 11,
-      "type": "RELATED_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 11,
-      "target": 12,
-      "type": "RELATED_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 12,
-      "target": 11,
-      "type": "RELATED_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 11,
-      "target": 13,
-      "type": "RELATED_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 13,
-      "target": 11,
-      "type": "RELATED_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 11,
+      "source": 25,
       "target": 14,
-      "type": "RELATED_TOPIC",
+      "type": "HAS_TOPIC",
       "value": 1
     },
     {
       "source": 14,
-      "target": 11,
-      "type": "RELATED_TOPIC",
+      "target": 25,
+      "type": "HAS_TOPIC",
       "value": 1
     },
     {
-      "source": 11,
-      "target": 15,
-      "type": "RELATED_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 15,
-      "target": 11,
-      "type": "RELATED_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 11,
-      "target": 16,
-      "type": "RELATED_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 16,
-      "target": 11,
-      "type": "RELATED_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 11,
-      "target": 17,
-      "type": "RELATED_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 17,
-      "target": 11,
-      "type": "RELATED_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 11,
-      "target": 18,
-      "type": "RELATED_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 18,
-      "target": 11,
-      "type": "RELATED_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 11,
-      "target": 19,
-      "type": "RELATED_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 19,
-      "target": 11,
-      "type": "RELATED_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 11,
-      "target": 20,
-      "type": "RELATED_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 20,
-      "target": 11,
-      "type": "RELATED_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 11,
+      "source": 25,
       "target": 21,
-      "type": "RELATED_TOPIC",
+      "type": "HAS_TOPIC",
       "value": 1
     },
     {
       "source": 21,
+      "target": 25,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 25,
       "target": 11,
-      "type": "RELATED_TOPIC",
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 11,
+      "target": 25,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 25,
+      "target": 15,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 15,
+      "target": 25,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 25,
+      "target": 12,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 12,
+      "target": 25,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 25,
+      "target": 17,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 17,
+      "target": 25,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 25,
+      "target": 18,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 18,
+      "target": 25,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 25,
+      "target": 19,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 19,
+      "target": 25,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 25,
+      "target": 20,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 20,
+      "target": 25,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 26,
+      "target": 0,
+      "type": "MENTIONS_CRYPTO",
+      "value": 1
+    },
+    {
+      "source": 0,
+      "target": 26,
+      "type": "MENTIONS_CRYPTO",
+      "value": 1
+    },
+    {
+      "source": 26,
+      "target": 1,
+      "type": "MENTIONS_CRYPTO",
+      "value": 1
+    },
+    {
+      "source": 1,
+      "target": 26,
+      "type": "MENTIONS_CRYPTO",
+      "value": 1
+    },
+    {
+      "source": 26,
+      "target": 2,
+      "type": "MENTIONS_CRYPTO",
+      "value": 1
+    },
+    {
+      "source": 2,
+      "target": 26,
+      "type": "MENTIONS_CRYPTO",
+      "value": 1
+    },
+    {
+      "source": 26,
+      "target": 3,
+      "type": "MENTIONS_CRYPTO",
+      "value": 1
+    },
+    {
+      "source": 3,
+      "target": 26,
+      "type": "MENTIONS_CRYPTO",
+      "value": 1
+    },
+    {
+      "source": 26,
+      "target": 5,
+      "type": "MENTIONS_CRYPTO",
+      "value": 1
+    },
+    {
+      "source": 5,
+      "target": 26,
+      "type": "MENTIONS_CRYPTO",
+      "value": 1
+    },
+    {
+      "source": 26,
+      "target": 6,
+      "type": "MENTIONS_CRYPTO",
+      "value": 1
+    },
+    {
+      "source": 6,
+      "target": 26,
+      "type": "MENTIONS_CRYPTO",
+      "value": 1
+    },
+    {
+      "source": 26,
+      "target": 4,
+      "type": "MENTIONS_CRYPTO",
+      "value": 1
+    },
+    {
+      "source": 4,
+      "target": 26,
+      "type": "MENTIONS_CRYPTO",
+      "value": 1
+    },
+    {
+      "source": 26,
+      "target": 9,
+      "type": "MENTIONS_CRYPTO",
+      "value": 1
+    },
+    {
+      "source": 9,
+      "target": 26,
+      "type": "MENTIONS_CRYPTO",
+      "value": 1
+    },
+    {
+      "source": 26,
+      "target": 14,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 14,
+      "target": 26,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 26,
+      "target": 10,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 10,
+      "target": 26,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 26,
+      "target": 15,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 15,
+      "target": 26,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 26,
+      "target": 12,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 12,
+      "target": 26,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 26,
+      "target": 17,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 17,
+      "target": 26,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 27,
+      "target": 0,
+      "type": "MENTIONS_CRYPTO",
+      "value": 1
+    },
+    {
+      "source": 0,
+      "target": 27,
+      "type": "MENTIONS_CRYPTO",
+      "value": 1
+    },
+    {
+      "source": 27,
+      "target": 1,
+      "type": "MENTIONS_CRYPTO",
+      "value": 1
+    },
+    {
+      "source": 1,
+      "target": 27,
+      "type": "MENTIONS_CRYPTO",
+      "value": 1
+    },
+    {
+      "source": 27,
+      "target": 2,
+      "type": "MENTIONS_CRYPTO",
+      "value": 1
+    },
+    {
+      "source": 2,
+      "target": 27,
+      "type": "MENTIONS_CRYPTO",
+      "value": 1
+    },
+    {
+      "source": 27,
+      "target": 5,
+      "type": "MENTIONS_CRYPTO",
+      "value": 1
+    },
+    {
+      "source": 5,
+      "target": 27,
+      "type": "MENTIONS_CRYPTO",
+      "value": 1
+    },
+    {
+      "source": 27,
+      "target": 7,
+      "type": "MENTIONS_CRYPTO",
+      "value": 1
+    },
+    {
+      "source": 7,
+      "target": 27,
+      "type": "MENTIONS_CRYPTO",
+      "value": 1
+    },
+    {
+      "source": 27,
+      "target": 9,
+      "type": "MENTIONS_CRYPTO",
+      "value": 1
+    },
+    {
+      "source": 9,
+      "target": 27,
+      "type": "MENTIONS_CRYPTO",
+      "value": 1
+    },
+    {
+      "source": 27,
+      "target": 11,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 11,
+      "target": 27,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 27,
+      "target": 15,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 15,
+      "target": 27,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 27,
+      "target": 16,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 16,
+      "target": 27,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 27,
+      "target": 12,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 12,
+      "target": 27,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 27,
+      "target": 17,
+      "type": "HAS_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 17,
+      "target": 27,
+      "type": "HAS_TOPIC",
       "value": 1
     }
   ]

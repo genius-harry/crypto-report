@@ -93,7 +93,7 @@ def create_crypto_network(connector: Neo4jConnector, output_dir: str = "static")
         
         # Save visualization
         output_path = os.path.join(output_dir, "crypto_network.html")
-        net.save_html(output_path)
+        net.write_html(output_path)
         
         print(f"Created cryptocurrency network visualization: {output_path}")
         return output_path
@@ -182,7 +182,7 @@ def create_topic_network(connector: Neo4jConnector, output_dir: str = "static") 
         
         # Save visualization
         output_path = os.path.join(output_dir, "topic_network.html")
-        net.save_html(output_path)
+        net.write_html(output_path)
         
         print(f"Created topic network visualization: {output_path}")
         return output_path

@@ -33,7 +33,7 @@
 
              #mynetwork {
                  width: 100%;
-                 height: 750px;
+                 height: 600px;
                  background-color: #222222;
                  border: 1px solid lightgray;
                  position: relative;
@@ -42,12 +42,6 @@
 
              
 
-             
-             #config {
-                 float: left;
-                 width: 400px;
-                 height: 600px;
-             }
              
 
              
@@ -63,8 +57,6 @@
         </div>
 
         
-        
-            <div id="config"></div>
         
 
         <script type="text/javascript">
@@ -96,8 +88,8 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#e74c3c", "font": {"color": "white"}, "id": 2, "label": "Politics", "shape": "dot", "size": 41, "title": "Politics - 7 articles"}, {"color": "#e74c3c", "font": {"color": "white"}, "id": 5, "label": "Institutional Adoption", "shape": "dot", "size": 35, "title": "Institutional Adoption - 5 articles"}, {"color": "#e74c3c", "font": {"color": "white"}, "id": 6, "label": "ETF", "shape": "dot", "size": 50, "title": "ETF - 10 articles"}, {"color": "#e74c3c", "font": {"color": "white"}, "id": 7, "label": "Layer 2", "shape": "dot", "size": 35, "title": "Layer 2 - 5 articles"}, {"color": "#e74c3c", "font": {"color": "white"}, "id": 352, "label": "Blockchain Technology", "shape": "dot", "size": 92, "title": "Blockchain Technology - 24 articles"}, {"color": "#e74c3c", "font": {"color": "white"}, "id": 353, "label": "DeFi", "shape": "dot", "size": 71, "title": "DeFi - 17 articles"}, {"color": "#e74c3c", "font": {"color": "white"}, "id": 358, "label": "NFT", "shape": "dot", "size": 44, "title": "NFT - 8 articles"}, {"color": "#e74c3c", "font": {"color": "white"}, "id": 359, "label": "Regulation", "shape": "dot", "size": 89, "title": "Regulation - 23 articles"}, {"color": "#e74c3c", "font": {"color": "white"}, "id": 360, "label": "Trading", "shape": "dot", "size": 80, "title": "Trading - 20 articles"}, {"color": "#e74c3c", "font": {"color": "white"}, "id": 382, "label": "Mining", "shape": "dot", "size": 32, "title": "Mining - 4 articles"}, {"color": "#e74c3c", "font": {"color": "white"}, "id": 383, "label": "Price Movement", "shape": "dot", "size": 80, "title": "Price Movement - 20 articles"}, {"color": "#e74c3c", "font": {"color": "white"}, "id": 384, "label": "Stablecoins", "shape": "dot", "size": 53, "title": "Stablecoins - 11 articles"}]);
-                  edges = new vis.DataSet([{"from": 2, "title": "1 common articles", "to": 5, "value": 1, "width": 1.5}, {"from": 2, "title": "2 common articles", "to": 6, "value": 2, "width": 2.0}, {"from": 2, "title": "2 common articles", "to": 7, "value": 2, "width": 2.0}, {"from": 2, "title": "6 common articles", "to": 352, "value": 6, "width": 4.0}, {"from": 2, "title": "6 common articles", "to": 353, "value": 6, "width": 4.0}, {"from": 2, "title": "2 common articles", "to": 358, "value": 2, "width": 2.0}, {"from": 2, "title": "7 common articles", "to": 359, "value": 7, "width": 4.5}, {"from": 2, "title": "5 common articles", "to": 360, "value": 5, "width": 3.5}, {"from": 2, "title": "6 common articles", "to": 383, "value": 6, "width": 4.0}, {"from": 2, "title": "4 common articles", "to": 384, "value": 4, "width": 3.0}, {"from": 5, "title": "3 common articles", "to": 6, "value": 3, "width": 2.5}, {"from": 5, "title": "3 common articles", "to": 7, "value": 3, "width": 2.5}, {"from": 5, "title": "3 common articles", "to": 352, "value": 3, "width": 2.5}, {"from": 5, "title": "1 common articles", "to": 353, "value": 1, "width": 1.5}, {"from": 5, "title": "2 common articles", "to": 358, "value": 2, "width": 2.0}, {"from": 5, "title": "5 common articles", "to": 359, "value": 5, "width": 3.5}, {"from": 5, "title": "5 common articles", "to": 360, "value": 5, "width": 3.5}, {"from": 5, "title": "1 common articles", "to": 382, "value": 1, "width": 1.5}, {"from": 5, "title": "5 common articles", "to": 383, "value": 5, "width": 3.5}, {"from": 5, "title": "4 common articles", "to": 384, "value": 4, "width": 3.0}, {"from": 6, "title": "3 common articles", "to": 7, "value": 3, "width": 2.5}, {"from": 6, "title": "4 common articles", "to": 352, "value": 4, "width": 3.0}, {"from": 6, "title": "4 common articles", "to": 353, "value": 4, "width": 3.0}, {"from": 6, "title": "1 common articles", "to": 358, "value": 1, "width": 1.5}, {"from": 6, "title": "10 common articles", "to": 359, "value": 10, "width": 6.0}, {"from": 6, "title": "8 common articles", "to": 360, "value": 8, "width": 5.0}, {"from": 6, "title": "1 common articles", "to": 382, "value": 1, "width": 1.5}, {"from": 6, "title": "9 common articles", "to": 383, "value": 9, "width": 5.5}, {"from": 6, "title": "5 common articles", "to": 384, "value": 5, "width": 3.5}, {"from": 7, "title": "2 common articles", "to": 352, "value": 2, "width": 2.0}, {"from": 7, "title": "1 common articles", "to": 353, "value": 1, "width": 1.5}, {"from": 7, "title": "2 common articles", "to": 358, "value": 2, "width": 2.0}, {"from": 7, "title": "5 common articles", "to": 359, "value": 5, "width": 3.5}, {"from": 7, "title": "3 common articles", "to": 360, "value": 3, "width": 2.5}, {"from": 7, "title": "1 common articles", "to": 382, "value": 1, "width": 1.5}, {"from": 7, "title": "5 common articles", "to": 383, "value": 5, "width": 3.5}, {"from": 7, "title": "4 common articles", "to": 384, "value": 4, "width": 3.0}, {"from": 352, "title": "14 common articles", "to": 353, "value": 14, "width": 8.0}, {"from": 352, "title": "7 common articles", "to": 358, "value": 7, "width": 4.5}, {"from": 352, "title": "14 common articles", "to": 359, "value": 14, "width": 8.0}, {"from": 352, "title": "13 common articles", "to": 360, "value": 13, "width": 7.5}, {"from": 352, "title": "3 common articles", "to": 382, "value": 3, "width": 2.5}, {"from": 352, "title": "10 common articles", "to": 383, "value": 10, "width": 6.0}, {"from": 352, "title": "8 common articles", "to": 384, "value": 8, "width": 5.0}, {"from": 353, "title": "5 common articles", "to": 358, "value": 5, "width": 3.5}, {"from": 353, "title": "13 common articles", "to": 359, "value": 13, "width": 7.5}, {"from": 353, "title": "12 common articles", "to": 360, "value": 12, "width": 7.0}, {"from": 353, "title": "2 common articles", "to": 382, "value": 2, "width": 2.0}, {"from": 353, "title": "9 common articles", "to": 383, "value": 9, "width": 5.5}, {"from": 353, "title": "5 common articles", "to": 384, "value": 5, "width": 3.5}, {"from": 358, "title": "8 common articles", "to": 359, "value": 8, "width": 5.0}, {"from": 358, "title": "7 common articles", "to": 360, "value": 7, "width": 4.5}, {"from": 358, "title": "2 common articles", "to": 382, "value": 2, "width": 2.0}, {"from": 358, "title": "5 common articles", "to": 383, "value": 5, "width": 3.5}, {"from": 358, "title": "3 common articles", "to": 384, "value": 3, "width": 2.5}, {"from": 359, "title": "19 common articles", "to": 360, "value": 19, "width": 10.5}, {"from": 359, "title": "4 common articles", "to": 382, "value": 4, "width": 3.0}, {"from": 359, "title": "19 common articles", "to": 383, "value": 19, "width": 10.5}, {"from": 359, "title": "11 common articles", "to": 384, "value": 11, "width": 6.5}, {"from": 360, "title": "4 common articles", "to": 382, "value": 4, "width": 3.0}, {"from": 360, "title": "16 common articles", "to": 383, "value": 16, "width": 9.0}, {"from": 360, "title": "10 common articles", "to": 384, "value": 10, "width": 6.0}, {"from": 382, "title": "4 common articles", "to": 383, "value": 4, "width": 3.0}, {"from": 382, "title": "2 common articles", "to": 384, "value": 2, "width": 2.0}, {"from": 383, "title": "10 common articles", "to": 384, "value": 10, "width": 6.0}]);
+                  nodes = new vis.DataSet([{"color": "#E6A34F", "font": {"color": "white"}, "id": 4, "label": "DeFi", "shape": "dot", "size": 22, "title": "DeFi - 7 articles"}, {"color": "#E6A34F", "font": {"color": "white"}, "id": 5, "label": "Regulation", "shape": "dot", "size": 30, "title": "Regulation - 17 articles"}, {"color": "#E6A34F", "font": {"color": "white"}, "id": 6, "label": "Price Movement", "shape": "dot", "size": 30, "title": "Price Movement - 19 articles"}, {"color": "#E6A34F", "font": {"color": "white"}, "id": 7, "label": "Politics", "shape": "dot", "size": 23, "title": "Politics - 8 articles"}, {"color": "#E6A34F", "font": {"color": "white"}, "id": 13, "label": "Blockchain Technology", "shape": "dot", "size": 26, "title": "Blockchain Technology - 11 articles"}, {"color": "#E6A34F", "font": {"color": "white"}, "id": 14, "label": "Trading", "shape": "dot", "size": 30, "title": "Trading - 16 articles"}, {"color": "#E6A34F", "font": {"color": "white"}, "id": 15, "label": "Mining", "shape": "dot", "size": 21, "title": "Mining - 6 articles"}, {"color": "#E6A34F", "font": {"color": "white"}, "id": 16, "label": "Stablecoins", "shape": "dot", "size": 25, "title": "Stablecoins - 10 articles"}, {"color": "#E6A34F", "font": {"color": "white"}, "id": 17, "label": "Institutional Adoption", "shape": "dot", "size": 21, "title": "Institutional Adoption - 6 articles"}, {"color": "#E6A34F", "font": {"color": "white"}, "id": 18, "label": "ETF", "shape": "dot", "size": 23, "title": "ETF - 8 articles"}, {"color": "#E6A34F", "font": {"color": "white"}, "id": 19, "label": "Layer 2", "shape": "dot", "size": 19, "title": "Layer 2 - 4 articles"}, {"color": "#E6A34F", "font": {"color": "white"}, "id": 29, "label": "NFT", "shape": "dot", "size": 19, "title": "NFT - 4 articles"}]);
+                  edges = new vis.DataSet([]);
 
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
@@ -108,46 +100,11 @@
                   // adding nodes and edges to the graph
                   data = {nodes: nodes, edges: edges};
 
-                  var options = {
-    "configure": {
-        "enabled": true,
-        "filter": [
-            "physics"
-        ]
-    },
-    "edges": {
-        "color": {
-            "inherit": true
-        },
-        "smooth": {
-            "enabled": true,
-            "type": "dynamic"
-        }
-    },
-    "interaction": {
-        "dragNodes": true,
-        "hideEdgesOnDrag": false,
-        "hideNodesOnDrag": false
-    },
-    "physics": {
-        "enabled": true,
-        "stabilization": {
-            "enabled": true,
-            "fit": true,
-            "iterations": 1000,
-            "onlyDynamicEdges": false,
-            "updateInterval": 50
-        }
-    }
-};
+                  var options = {"physics": {"forceAtlas2Based": {"gravitationalConstant": -50, "centralGravity": 0.01, "springLength": 100, "springConstant": 0.05}, "maxVelocity": 50, "solver": "forceAtlas2Based", "timestep": 0.35, "stabilization": {"enabled": true, "iterations": 1000}}};
 
                   
 
 
-                  
-                  // if this network requires displaying the configure window,
-                  // put it in its div
-                  options.configure["container"] = document.getElementById("config");
                   
 
                   network = new vis.Network(container, data, options);
