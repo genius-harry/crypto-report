@@ -153,6 +153,31 @@ python main.py --verbose                        # extra logging
 
 The web UI defaults to <http://localhost:5001>.
 
+## Custom crawlers
+
+`modules/data_collection/custom_crawlers/crawler_controller.py` invokes
+per-site crawler scripts in `<site>/run_*.sh`. Each script creates its
+own local venv (under `<site>/venv/`) and pulls just the deps it needs,
+so crawlers stay isolated. The controller maps:
+
+| Crawler | Method | Extra deps |
+|---|---|---|
+| `beincrypto` | RSS | feedparser |
+| `cointelegraph` | RSS | feedparser |
+| `utoday` | HTTP + BS4 | (covered by base) |
+| `bitcoin` | Selenium | **needs Chrome + chromedriver** |
+| `coindesk` | Selenium | **needs Chrome + webdriver-manager** |
+| `cryptonews` | Selenium | **needs Chrome + undetected-chromedriver** |
+
+The three Selenium-based crawlers need a working Chrome browser on the
+host. Without it, the crawler subprocess will fail; the pipeline keeps
+going (it just collects fewer fresh articles). For RSS-based sites this
+is not a concern. To smoke-test:
+
+```bash
+python -c "from modules.data_collection.custom_crawlers.crawler_controller import run_crawler; run_crawler('beincrypto', max_articles=2)"
+```
+
 ## Troubleshooting
 
 **`Connection refused` on bolt://localhost:7687** — Neo4j isn't running.

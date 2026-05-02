@@ -6,6 +6,7 @@ firecrawl-py>=0.1.0
 # Web Scraping
 beautifulsoup4>=4.12.2
 html2text>=2020.0.0
+feedparser>=6.0.0  # RSS-based crawlers (beincrypto, cointelegraph, bitcoin RSS)
 
 # LLM and RAG
 langchain>=0.1.0
@@ -42,4 +43,7 @@ neo4j>=5.13.0
 # Web Interface
 flask>=2.3.3
 markdown2>=2.4.0
-weasyprint>=60.0
+
+# PDF generation (modules/web_interface/pdf_generator.py)
+reportlab>=4.0.0
+pillow>=10.0.0

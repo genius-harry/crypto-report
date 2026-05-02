@@ -39,6 +39,13 @@ neo4j_logs/
 neo4j_import/
 neo4j_plugins/
 
+# Generated PDF reports (regenerate via /generate-pdf endpoint)
+output/pdf/*.pdf
+
+# Per-site crawler venvs
+*/venv/
+*/.venv/
+
 # Build/test artifacts
 .pytest_cache/
 .coverage

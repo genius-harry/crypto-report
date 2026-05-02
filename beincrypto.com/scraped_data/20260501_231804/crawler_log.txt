@@ -1,0 +1,19 @@
+[2026-05-01 23:18:04] Initialized BeInCrypto crawler. Output directory: scraped_data/20260501_231804
+[2026-05-01 23:18:04] Max articles to fetch: 2
+[2026-05-01 23:18:04] Starting article processing
+[2026-05-01 23:18:04] Fetching RSS feed from https://beincrypto.com/feed/
+[2026-05-01 23:18:05] Found 12 articles in the RSS feed
+[2026-05-01 23:18:05] Processing article 1/2: MicroStrategy’s STRC Trading Volume Hits $380 Million as Payment Vote Nears
+[2026-05-01 23:18:05] Fetching article content from: https://beincrypto.com/microstrategy-strc-trading-volume-surges-payment-vote-nears/
+[2026-05-01 23:18:08] Saved article: MicroStrategy’s STRC Trading Volume Hits $380 Million as Payment Vote Nears
+[2026-05-01 23:18:08]   Markdown: scraped_data/20260501_231804/20260502_012123_microstrategy_s_strc_trading_volume_hits_380_milli.md
+[2026-05-01 23:18:08]   JSON: scraped_data/20260501_231804/20260502_012123_microstrategy_s_strc_trading_volume_hits_380_milli.json
+[2026-05-01 23:18:08] Waiting 4.29 seconds before next article...
+[2026-05-01 23:18:12] Processing article 2/2: AI Art Is Getting Creepy: Robot Dogs With Musk and Bezos Faces Take Over Berlin Gallery
+[2026-05-01 23:18:12] Fetching article content from: https://beincrypto.com/ai-art-musk-bezos-robot-dogs-berlin-gallery/
+[2026-05-01 23:18:16] Saved article: AI Art Is Getting Creepy: Robot Dogs With Musk and Bezos Faces Take Over Berlin Gallery
+[2026-05-01 23:18:16]   Markdown: scraped_data/20260501_231804/20260501_224845_ai_art_is_getting_creepy_robot_dogs_with_musk_and_.md
+[2026-05-01 23:18:16]   JSON: scraped_data/20260501_231804/20260501_224845_ai_art_is_getting_creepy_robot_dogs_with_musk_and_.json
+[2026-05-01 23:18:16] Article processing completed!
+[2026-05-01 23:18:16] Successfully saved: 2/2 articles
+[2026-05-01 23:18:16] Errors: 0/2 articles

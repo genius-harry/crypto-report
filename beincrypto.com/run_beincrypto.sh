@@ -49,7 +49,7 @@ source venv/bin/activate
 
 # Install required packages
 echo "Installing requirements..."
-pip install requests beautifulsoup4 html2text
+pip install requests beautifulsoup4 html2text feedparser
 
 # Create the output directory if it doesn't exist
 mkdir -p "$OUTPUT_DIR"
