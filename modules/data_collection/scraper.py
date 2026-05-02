@@ -434,22 +434,21 @@ def scrape_articles(articles: List[Dict[str, Any]], verbose: bool = False, use_c
             }
             scraped_results.append(placeholder)
     
-    # Save all scraped results to JSON
+    # Save all scraped results to JSON.
+    # The compilation lives at data/articles/scraped_articles_<timestamp>.json
+    # with full content — graph_builder reads `content` for entity extraction.
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    output_dir = ensure_dir("data")
-    results_file = os.path.join(output_dir, f"scraped_results_{timestamp}.json")
-    
+    articles_dir = ensure_dir(os.path.join("data", "articles"))
+    results_file = os.path.join(articles_dir, f"scraped_articles_{timestamp}.json")
+
     with open(results_file, "w", encoding="utf-8") as f:
         json.dump({
             "timestamp": timestamp,
             "count": len(scraped_results),
-            "articles": [
-                {k: v for k, v in article.items() if k != "content"}  # Exclude full content to keep file smaller
-                for article in scraped_results
-            ]
+            "articles": scraped_results,
         }, f, ensure_ascii=False, indent=2)
-    
+
     print(f"\nScraped {len(scraped_results)} articles total")
-    print(f"Saved metadata to {results_file}")
-    
-    return scraped_results 
+    print(f"Saved compilation to {results_file}")
+
+    return scraped_results

@@ -61,23 +61,35 @@ disk so partial reruns are cheap.
 └── try_new_scrawl/              # experimental BS4/Selenium crawlers (not wired in)
 ```
 
-## Setup
+## Quick start
+
+```bash
+# 1. Install Docker Desktop (or Colima): https://www.docker.com/products/docker-desktop/
+# 2. Clone, then:
+./setup.sh                                    # venv + deps + .env from template
+$EDITOR .env                                  # fill in OPENAI_API_KEY at minimum
+docker compose up -d                          # starts Neo4j on :7474 (UI) and :7687 (bolt)
+source venv/bin/activate
+python main.py --only-graph                   # build graph from cached articles
+python main.py --only-report                  # generate report
+python main.py --only-web                     # serve UI on http://localhost:5001
+```
+
+## Setup (detailed)
 
 ### 1. Python deps
 
 ```bash
-./setup.sh           # creates venv + installs requirements.txt
+./setup.sh           # creates venv + installs requirements.txt + bootstraps .env
 # or manually:
 python3 -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
+cp .env.example .env
 ```
 
 ### 2. Environment variables
 
-```bash
-cp .env.example .env
-# edit .env, fill in at minimum OPENAI_API_KEY and NEO4J_PASSWORD
-```
+Edit `.env`. Defaults match `docker-compose.yml`.
 
 | Var | Required? | Used by |
 |---|---|---|
@@ -88,16 +100,20 @@ cp .env.example .env
 | `FIRECRAWL_API_KEY` | no — falls back to per-site crawlers | scraper |
 | `COINAPI_KEY` | no | optional market metadata enrichment |
 
-### 3. Neo4j
+### 3. Neo4j (via Docker)
 
-The repo expects a Neo4j instance reachable at `$NEO4J_URI`
-(default `bolt://localhost:7687`). The recommended way is via Docker —
-a `docker-compose.yml` is added in Phase B of this rebuild.
+```bash
+docker compose up -d         # starts cryptoreport-neo4j (Neo4j 5.20 + APOC)
+docker compose logs -f       # tail logs
+docker compose down          # stop
+docker compose down -v       # stop + delete volumes (wipes graph)
+```
 
-For now, options:
+Browser UI: <http://localhost:7474> (login with the user/password from `.env`).
+
+Alternative backends, if you don't want Docker:
 - **Neo4j Desktop**: create a local DB, use its bolt URL + password
-- **Neo4j AuraDB**: use the cloud bolt URI + credentials
-- **Docker (manual)**: `docker run -p 7687:7687 -p 7474:7474 -e NEO4J_AUTH=neo4j/cryptoreport neo4j:5`
+- **Neo4j AuraDB**: cloud, set `NEO4J_URI=neo4j+s://...`
 
 ## Usage
 
@@ -139,14 +155,24 @@ The web UI defaults to <http://localhost:5001>.
 
 ## Troubleshooting
 
+**`Connection refused` on bolt://localhost:7687** — Neo4j isn't running.
+`docker compose up -d`. Wait ~30s for it to be ready, then retry.
+
 **`Did not find username, please add an environment variable NEO4J_USERNAME`** —
 your `.env` is missing or not loaded. `cp .env.example .env` and fill it in.
+
+**`401 Unauthorized` from OpenAI** — `OPENAI_API_KEY` in `.env` is missing or
+invalid.
 
 **Chat in web UI returns nothing** — Neo4j is empty. Run
 `python main.py --only-graph` first to populate it.
 
-**`Module not found: firecrawl_py` / `langchain_neo4j`** — install deps:
-`pip install -r requirements.txt`.
+**`Module not found: markdown2` / `firecrawl_py` / `langchain_neo4j`** — install
+deps in the activated venv: `pip install -r requirements.txt`.
+
+**`docker compose up` fails on `apoc` plugin** — wait a minute on first run;
+Neo4j downloads the plugin into `./neo4j_plugins/`. Subsequent starts are
+instant.
 
 ## License
 

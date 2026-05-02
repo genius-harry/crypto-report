@@ -355,17 +355,41 @@ def main():
         # If skipping scrape but need results for later phases, load from file
         scraped_dir = os.path.join("data", "articles")
         if os.path.exists(scraped_dir):
-            files = sorted([os.path.join(scraped_dir, f) for f in os.listdir(scraped_dir)
-                        if f.startswith('scraped_articles_')], key=os.path.getmtime, reverse=True)
-            
-            if files:
-                print("\n=== Loading cached scraped articles ===")
-                with open(files[0], 'r') as f:
+            # Prefer a compilation file produced by the scraper
+            compilation_files = sorted(
+                [os.path.join(scraped_dir, f) for f in os.listdir(scraped_dir)
+                 if f.startswith('scraped_articles_') and f.endswith('.json')],
+                key=os.path.getmtime, reverse=True
+            )
+
+            if compilation_files:
+                print("\n=== Loading cached scraped articles (compilation) ===")
+                with open(compilation_files[0], 'r', encoding='utf-8') as f:
                     scraped_articles = json.load(f)
-                print(f"Loaded scraped articles from {files[0]}")
+                print(f"Loaded scraped articles from {compilation_files[0]}")
             else:
-                print("No cached scraped articles found. Please run with --only-scrape first.")
-                return
+                # Fall back: merge per-article JSON files
+                per_article_files = sorted(
+                    [os.path.join(scraped_dir, f) for f in os.listdir(scraped_dir)
+                     if f.endswith('.json')],
+                    key=os.path.getmtime, reverse=True
+                )
+                if per_article_files:
+                    print(f"\n=== Loading {len(per_article_files)} per-article cached files ===")
+                    scraped_articles = []
+                    for fp in per_article_files:
+                        try:
+                            with open(fp, 'r', encoding='utf-8') as f:
+                                article = json.load(f)
+                            if isinstance(article, dict) and article.get("url"):
+                                scraped_articles.append(article)
+                        except Exception as e:
+                            if args.verbose:
+                                print(f"  skipping {fp}: {e}")
+                    print(f"Loaded {len(scraped_articles)} articles")
+                else:
+                    print("No cached scraped articles found. Please run with --only-scrape first.")
+                    return
         else:
             print("No cached scraped articles found. Please run with --only-scrape first.")
             return

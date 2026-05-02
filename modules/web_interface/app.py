@@ -464,36 +464,60 @@ def load_report():
         return "# Cryptocurrency Market Report\n\nNo report available yet. Please generate a report first."
 
 def load_articles():
-    """Load the scraped articles from file."""
+    """Load the scraped articles from file.
+
+    Prefers a compilation file (`scraped_articles_*.json`) but falls back to
+    merging the per-article JSON files in `data/articles/`.
+    """
     articles_dir = os.path.join(os.getcwd(), "data", "articles")
-    
-    if os.path.exists(articles_dir):
-        files = sorted([f for f in os.listdir(articles_dir) if f.startswith('scraped_articles_')], 
-                       key=lambda x: os.path.getmtime(os.path.join(articles_dir, x)), 
-                       reverse=True)
-        
-        if files:
-            latest_file = os.path.join(articles_dir, files[0])
-            with open(latest_file, "r", encoding="utf-8") as f:
-                data = json.load(f)
-                articles = data.get("articles", [])
-                print(f"Successfully loaded {len(articles)} articles from {latest_file}")
-                
-                # Enhance articles with relevant counts for display
-                for article in articles:
-                    # Count mentions of cryptocurrencies and topics (simplified approach)
-                    crypto_count = sum(1 for entity in article.get("entities", []) 
-                                      if entity.get("type") == "Cryptocurrency")
-                    topic_count = sum(1 for entity in article.get("entities", []) 
-                                     if entity.get("type") == "Topic")
-                    
-                    article["crypto_count"] = crypto_count
-                    article["topic_count"] = topic_count
-                
-                return articles[:12]  # Return top 12 articles
-    
-    print("No articles found")
-    return []
+    if not os.path.exists(articles_dir):
+        print("No articles found")
+        return []
+
+    articles = []
+    compilation_files = sorted(
+        [f for f in os.listdir(articles_dir) if f.startswith('scraped_articles_') and f.endswith('.json')],
+        key=lambda x: os.path.getmtime(os.path.join(articles_dir, x)),
+        reverse=True,
+    )
+
+    if compilation_files:
+        latest_file = os.path.join(articles_dir, compilation_files[0])
+        with open(latest_file, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            articles = data.get("articles", [])
+            print(f"Successfully loaded {len(articles)} articles from {latest_file}")
+    else:
+        # Per-article fallback
+        per_article = sorted(
+            [f for f in os.listdir(articles_dir) if f.endswith('.json')],
+            key=lambda x: os.path.getmtime(os.path.join(articles_dir, x)),
+            reverse=True,
+        )
+        for fname in per_article:
+            try:
+                with open(os.path.join(articles_dir, fname), "r", encoding="utf-8") as f:
+                    article = json.load(f)
+                if isinstance(article, dict) and article.get("url"):
+                    articles.append(article)
+            except Exception:
+                continue
+        print(f"Successfully loaded {len(articles)} per-article files from {articles_dir}")
+
+    if not articles:
+        print("No articles found")
+        return []
+
+    # Enhance articles with relevant counts for display
+    for article in articles:
+        crypto_count = sum(1 for entity in article.get("entities", [])
+                          if entity.get("type") == "Cryptocurrency")
+        topic_count = sum(1 for entity in article.get("entities", [])
+                         if entity.get("type") == "Topic")
+        article["crypto_count"] = crypto_count
+        article["topic_count"] = topic_count
+
+    return articles[:12]  # Return top 12 articles
 
 def process_markdown(markdown_text):
     """

@@ -41,3 +41,5 @@ neo4j>=5.13.0
 
 # Web Interface
 flask>=2.3.3
+markdown2>=2.4.0
+weasyprint>=60.0
