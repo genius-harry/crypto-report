@@ -716,18 +716,6 @@
     },
     {
       "source": 23,
-      "target": 10,
-      "type": "HAS_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 10,
-      "target": 23,
-      "type": "HAS_TOPIC",
-      "value": 1
-    },
-    {
-      "source": 23,
       "target": 11,
       "type": "HAS_TOPIC",
       "value": 1
@@ -1046,6 +1034,18 @@
     },
     {
       "source": 20,
+      "target": 11,
+      "type": "RELATED_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 11,
+      "target": 21,
+      "type": "RELATED_TOPIC",
+      "value": 1
+    },
+    {
+      "source": 21,
       "target": 11,
       "type": "RELATED_TOPIC",
       "value": 1

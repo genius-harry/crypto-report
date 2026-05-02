@@ -20,10 +20,10 @@ from bs_crawler import scrape_article, scrape_and_save_articles, save_scrape_res
 
 # Try importing from the existing pipeline
 try:
-    from crypto_news_agent_version_1.modules.data_collection.scraper import save_article_as_markdown
+    from modules.data_collection.scraper import save_article_as_markdown
     pipeline_available = True
 except ImportError:
-    print("Warning: Could not import from crypto_news_agent_version_1 pipeline.")
+    print("Warning: Could not import from main pipeline.")
     print("Running in standalone mode.")
     pipeline_available = False
 

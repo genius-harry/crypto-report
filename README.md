@@ -1,118 +1,153 @@
-# BeInCrypto Crawler
+# Crypto Report
 
-A Python-based crawler for BeInCrypto that uses RSS feeds to fetch cryptocurrency news articles.
+A multi-source crypto news intelligence pipeline. It searches and scrapes
+articles from major crypto news sites, builds a Neo4j knowledge graph,
+generates a market report via GraphRAG (LangChain + OpenAI), and serves a
+Flask web UI for chat / visualization / PDF export.
 
-## Features
+## Pipeline (6 phases)
 
-- Fetches articles from BeInCrypto's RSS feed
-- Extracts content and metadata (title, author, date, categories, featured image)
-- Saves articles in both markdown and JSON formats
-- Detailed logging and error handling
-- Rate limiting to avoid overloading the server
-- Command-line options for customization
+```
+search → rank → scrape → graph → report → web
+```
 
-## Requirements
+1. **Search** — Google / SerpAPI news search for crypto topics
+2. **Rank** — keyword scoring + optional Gemini LLM ranker
+3. **Scrape** — Firecrawl (if API key set) or per-site custom crawlers
+4. **Graph** — Neo4j knowledge graph (Article / Cryptocurrency / Topic / Person)
+5. **Report** — GraphRAG-generated markdown report
+6. **Web** — Flask UI with chat, graph viz, PDF export
 
-- Python 3.6+
-- Virtual environment (created automatically by the script)
-- Required packages (installed automatically):
-  - feedparser
-  - requests
-  - beautifulsoup4
-  - html2text
+Phases can be run individually or skipped. Intermediate state is cached on
+disk so partial reruns are cheap.
+
+## Directory layout
+
+```
+.
+├── main.py                      # entry point — orchestrates all 6 phases
+├── run_graphrag.sh              # convenience wrapper around main.py
+├── setup.sh                     # installs Python deps
+├── requirements.txt
+├── .env.example                 # copy to .env and fill in keys
+│
+├── modules/                     # core pipeline code
+│   ├── data_collection/         #   search, rank, scrape
+│   │   └── custom_crawlers/     #     dispatcher to per-site crawlers
+│   ├── graph_builder/           #   Neo4j ingestion + schema
+│   ├── report_generator/        #   GraphRAG chain + report assembly
+│   └── web_interface/           #   Flask app, PDF export, templates
+│
+├── lib/                         # shared utilities
+├── templates/                   # Flask Jinja templates
+├── static/                      # web assets (graph viz, css/js)
+│
+├── data/                        # cached intermediate state
+│   ├── search_results/
+│   ├── ranked/
+│   └── articles/                #   ~110 historical scraped articles (fixtures)
+├── markdown/                    # human-readable scraped articles
+├── output/                      # generated reports + PDFs
+├── demos/                       # standalone demo scripts
+│
+├── beincrypto.com/              # per-site crawlers (called by custom_crawlers)
+├── bitcoin.com/
+├── coindesk.com/
+├── cointelegraph.com/
+├── cryptonews.com/
+├── theblock.co/
+├── u.today/
+│
+└── try_new_scrawl/              # experimental BS4/Selenium crawlers (not wired in)
+```
 
 ## Setup
 
-1. Clone the repository or download the files
-2. Navigate to the project directory
-3. Make the run script executable:
+### 1. Python deps
 
 ```bash
-chmod +x run_beincrypto.sh
+./setup.sh           # creates venv + installs requirements.txt
+# or manually:
+python3 -m venv venv && source venv/bin/activate
+pip install -r requirements.txt
 ```
+
+### 2. Environment variables
+
+```bash
+cp .env.example .env
+# edit .env, fill in at minimum OPENAI_API_KEY and NEO4J_PASSWORD
+```
+
+| Var | Required? | Used by |
+|---|---|---|
+| `OPENAI_API_KEY` | **yes** | ranker + report generator |
+| `NEO4J_URI` / `NEO4J_USERNAME` / `NEO4J_PASSWORD` | **yes** | graph + report |
+| `SERP_API_KEY` | no — falls back to cached results | search |
+| `GEMINI_API_KEY` | no — falls back to keyword scoring | ranker |
+| `FIRECRAWL_API_KEY` | no — falls back to per-site crawlers | scraper |
+| `COINAPI_KEY` | no | optional market metadata enrichment |
+
+### 3. Neo4j
+
+The repo expects a Neo4j instance reachable at `$NEO4J_URI`
+(default `bolt://localhost:7687`). The recommended way is via Docker —
+a `docker-compose.yml` is added in Phase B of this rebuild.
+
+For now, options:
+- **Neo4j Desktop**: create a local DB, use its bolt URL + password
+- **Neo4j AuraDB**: use the cloud bolt URI + credentials
+- **Docker (manual)**: `docker run -p 7687:7687 -p 7474:7474 -e NEO4J_AUTH=neo4j/cryptoreport neo4j:5`
 
 ## Usage
 
-Run the crawler using the provided shell script:
+### Full pipeline
 
 ```bash
-./run_beincrypto.sh
+python main.py
 ```
 
-### Command Line Options
-
-- `-a, --articles NUM`: Maximum number of articles to fetch (default: 10)
-- `-o, --output DIR`: Output directory for scraped data (default: scraped_data)
-- `-h, --help`: Display help message and exit
-
-Examples:
+### Single phase
 
 ```bash
-# Fetch 5 articles
-./run_beincrypto.sh -a 5
-
-# Specify a custom output directory
-./run_beincrypto.sh -o custom_data
-
-# Fetch 20 articles and save to a custom directory
-./run_beincrypto.sh -a 20 -o custom_data
+python main.py --only-search    # just search
+python main.py --only-rank      # just rank
+python main.py --only-scrape    # just scrape
+python main.py --only-graph     # just build graph
+python main.py --only-report    # just generate report
+python main.py --only-web       # just start web UI
 ```
 
-## Output Structure
+### Skip phase
 
-Articles are saved in a timestamped directory within the output directory. For each article, two files are created:
+```bash
+python main.py --skip-graph     # everything except graph
+python main.py --skip-web       # everything except web UI
+```
 
-1. Markdown file (`.md`): Human-readable format with article content
-2. JSON file (`.json`): Machine-readable format with all extracted data
+### Common flags
 
-Additionally, a `summary.json` file is created with statistics about the crawling process, and a `crawler_log.txt` file contains detailed logs.
+```bash
+python main.py --query "bitcoin ethereum etf"   # custom search query
+python main.py --limit 20                       # process N articles
+python main.py --search                         # force fresh search (ignore cache)
+python main.py --clean                          # wipe Neo4j before importing
+python main.py --verbose                        # extra logging
+```
 
-## Article Format
+The web UI defaults to <http://localhost:5001>.
 
-### Markdown Format
+## Troubleshooting
 
-The markdown file includes:
-- Title (as heading)
-- Author
-- Publication date
-- Categories
-- Featured image (if available)
-- Article content in markdown format
-- Source URL
+**`Did not find username, please add an environment variable NEO4J_USERNAME`** —
+your `.env` is missing or not loaded. `cp .env.example .env` and fill it in.
 
-### JSON Format
+**Chat in web UI returns nothing** — Neo4j is empty. Run
+`python main.py --only-graph` first to populate it.
 
-The JSON file includes all extracted data:
-- title
-- url
-- date_published
-- author
-- categories
-- summary
-- content_html (raw HTML)
-- content_markdown (converted to markdown)
-- featured_image (URL, if available)
+**`Module not found: firecrawl_py` / `langchain_neo4j`** — install deps:
+`pip install -r requirements.txt`.
 
 ## License
 
-MIT License
-
-Copyright (c) 2025
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE. 
+MIT.

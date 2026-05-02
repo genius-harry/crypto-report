@@ -1,5 +1,6 @@
 # Environment variables
 .env
+.env.local
 
 # Virtual Environment
 venv/
@@ -30,4 +31,15 @@ build/
 .Spotlight-V100
 .Trashes
 ehthumbs.db
-Thumbs.db 
+Thumbs.db
+
+# Neo4j data (when running via docker-compose)
+neo4j_data/
+neo4j_logs/
+neo4j_import/
+neo4j_plugins/
+
+# Build/test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
