@@ -43,8 +43,8 @@ neo4j_plugins/
 output/pdf/*.pdf
 
 # Per-site crawler venvs
-*/venv/
-*/.venv/
+**/venv/
+**/.venv/
 
 # Build/test artifacts
 .pytest_cache/

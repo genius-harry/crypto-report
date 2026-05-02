@@ -1,0 +1,13 @@
+[2026-05-01 23:45:25] Initialized BeInCrypto crawler. Output directory: scraped_data/20260501_234525
+[2026-05-01 23:45:25] Max articles to fetch: 1
+[2026-05-01 23:45:25] Starting article processing
+[2026-05-01 23:45:25] Fetching RSS feed from https://beincrypto.com/feed/
+[2026-05-01 23:45:25] Found 12 articles in the RSS feed
+[2026-05-01 23:45:25] Processing article 1/1: MicroStrategy’s STRC Trading Volume Hits $380 Million as Payment Vote Nears
+[2026-05-01 23:45:25] Fetching article content from: https://beincrypto.com/microstrategy-strc-trading-volume-surges-payment-vote-nears/
+[2026-05-01 23:45:28] Saved article: MicroStrategy’s STRC Trading Volume Hits $380 Million as Payment Vote Nears
+[2026-05-01 23:45:28]   Markdown: scraped_data/20260501_234525/20260502_012123_microstrategy_s_strc_trading_volume_hits_380_milli.md
+[2026-05-01 23:45:28]   JSON: scraped_data/20260501_234525/20260502_012123_microstrategy_s_strc_trading_volume_hits_380_milli.json
+[2026-05-01 23:45:28] Article processing completed!
+[2026-05-01 23:45:28] Successfully saved: 1/1 articles
+[2026-05-01 23:45:28] Errors: 0/1 articles

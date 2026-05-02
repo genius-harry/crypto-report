@@ -50,15 +50,15 @@ disk so partial reruns are cheap.
 ├── output/                      # generated reports + PDFs
 ├── demos/                       # standalone demo scripts
 │
-├── beincrypto.com/              # per-site crawlers (called by custom_crawlers)
-├── bitcoin.com/
-├── coindesk.com/
-├── cointelegraph.com/
-├── cryptonews.com/
-├── theblock.co/
-├── u.today/
-│
-└── try_new_scrawl/              # experimental BS4/Selenium crawlers (not wired in)
+└── crawlers/                    # per-site crawlers (dispatched by custom_crawlers)
+    ├── beincrypto/
+    ├── bitcoin/
+    ├── coindesk/
+    ├── cointelegraph/
+    ├── cryptonews/
+    ├── theblock/
+    ├── utoday/
+    └── experimental/            # BS4 / Selenium experiments, not wired in
 ```
 
 ## Quick start
@@ -156,9 +156,9 @@ The web UI defaults to <http://localhost:5001>.
 ## Custom crawlers
 
 `modules/data_collection/custom_crawlers/crawler_controller.py` invokes
-per-site crawler scripts in `<site>/run_*.sh`. Each script creates its
-own local venv (under `<site>/venv/`) and pulls just the deps it needs,
-so crawlers stay isolated. The controller maps:
+per-site crawler scripts in `crawlers/<site>/run_*.sh`. Each script
+creates its own local venv (under `crawlers/<site>/venv/`) and pulls
+just the deps it needs, so crawlers stay isolated. The controller maps:
 
 | Crawler | Method | Extra deps |
 |---|---|---|

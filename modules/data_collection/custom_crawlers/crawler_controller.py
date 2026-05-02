@@ -18,14 +18,16 @@ import shutil
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.abspath(os.path.join(CURRENT_DIR, "../../../"))
 
+CRAWLERS_DIR = os.path.join(PROJECT_ROOT, "crawlers")
+
 # Add paths to crawlers
 CRAWLER_PATHS = {
-    "beincrypto": os.path.join(PROJECT_ROOT, "beincrypto.com"),
-    "bitcoin": os.path.join(PROJECT_ROOT, "bitcoin.com"),
-    "coindesk": os.path.join(PROJECT_ROOT, "coindesk.com"),
-    "cointelegraph": os.path.join(PROJECT_ROOT, "cointelegraph.com"),
-    "cryptonews": os.path.join(PROJECT_ROOT, "cryptonews.com"),
-    "utoday": os.path.join(PROJECT_ROOT, "u.today")
+    "beincrypto": os.path.join(CRAWLERS_DIR, "beincrypto"),
+    "bitcoin": os.path.join(CRAWLERS_DIR, "bitcoin"),
+    "coindesk": os.path.join(CRAWLERS_DIR, "coindesk"),
+    "cointelegraph": os.path.join(CRAWLERS_DIR, "cointelegraph"),
+    "cryptonews": os.path.join(CRAWLERS_DIR, "cryptonews"),
+    "utoday": os.path.join(CRAWLERS_DIR, "utoday"),
 }
 
 # Shell scripts to run each crawler
